@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metro Data Resource Center</origin>
+				<pubdate>1996</pubdate>
+				<title>Schools</title>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Public and private school locations (points).  Primary source: Oregon Dept. of Education (ODE) Open Institution List.</abstract>
+			<purpose>To inventory school facilities as an important regional asset for general mapping and analysis.  Designed to be used with the School_site polygon feature class.</purpose>
+			<supplinf>Four ID fields link to state and national databases, making it possible to link to external data (e.g. enrollment, building age, or operation costs).  See http://www.ode.state.or.us/search/results/?id=219 and http://nces.ed.gov/datatools/index.asp?DataToolSectionID=4).  State school and district IDs are derived from the Oregon Dept. of Education Open Institution List.  School points are placed on a school site (polygon) and on a building footprint.  Multiple school points are placed on a single school site when the site has more than one use.  Some school points from the Open Institution List are district administration offices.  In these cases, the school ID is the school district ID and the district ID is the parent agency (ESD).</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140724</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-123.785577699</westbc>
+				<eastbc>-121.440498206</eastbc>
+				<northbc>46.3880499964</northbc>
+				<southbc>44.6838701483</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>School</themekey>
+				<themekey>education</themekey>
+				<themekey>public schools</themekey>
+				<themekey>private schools</themekey>
+				<themekey>school facilities</themekey>
+				<themekey>school locations</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Portland</placekey>
+				<placekey>Multnomah County</placekey>
+				<placekey>Washington County</placekey>
+				<placekey>Clackamas County</placekey>
+				<placekey>Oregon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This database and GIS data are made available under the Open Database License (ODbL v1) and Database Content License (DbCL v1). See http://www.oregonmetro.gov/rlis-live.</useconst>
+    <browse>
+        <browsen>http://library.oregonmetro.gov/rlisdiscovery/browse_graphic/schools.png</browsen>
+        <browsed>Schools shown in different symbols with streets and rivers for orientation.</browsed>
+        <browset>PNG</browset>
+    </browse>
+	</idinfo>
+	<dataqual>
+		<logic></logic>
+		<complete></complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Registered to tax lots. Street center lines were digitized from aerial orthophotography at +/- 10 feet accuracy. Tax lots were fit to the street centerlines. Beaverton, Oregon City and Tigard planning areas were improved to +/- 5 feet accuracy. Multnomah County was created with coordinate geometry using better control.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Projection information (.prj file), compatible with ArcGIS 8.1, was added to the layer.</procdesc>
+				<procdate>20010715</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Locations adjusted using 2000 Spencer Gross aerial photography and attribute data verified by Trimet.</procdesc>
+				<procdate>20010930</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>In coverage the Zip item was modified from 10 to 5 characters and a Zip4 item added for the 4-digit zipcode add-on number. In the derived shapefile and SDE_layer the Zipcode field was modified from 10 to 5 characters and the Zip4 field added.</procdesc>
+				<procdate>20021031</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data-layer now maintained by TriMet and passed on to Metro in shapefile format. TriMet expanded the domains of the Level_no item. Grade item which previously appeared only in the coverage format version is now included in the shapefile version.</procdesc>
+				<procdate>20051031</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>TriMet again assumed responsibility for maintaining and providing schools data to Metro; Expanded width of Address and City fields</procdesc>
+				<procdate>20110201</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metro performed a thorough update of the data.</procdesc>
+				<procdate>20120501</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metro assumed responsibility for maintaining school data.  Added ID fields that link to state or national school databases, which contain attributes that are not available in RLIS.  Approximately 200 schools were added from the Oregon Dept. of Education Open Institution List that were not previously on RLIS.</procdesc>
+				<procdate>20120515</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Added the County (County where the school exists)and Updated columns(Date of most recent update to the school). Note: All records were initially given an Updated value of 5/1/2012 reflecting Metros thorough review of the date prior to the May 2012 release.</procdesc>
+				<procdate>20120730</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Extensive review, edits, and spelling standardization.</procdesc>
+				<procdate>20130425</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>NAD_1983_HARN_StatePlane_Oregon_North_FIPS_3601</gridsysn>
+					<spcs>
+						<spcszone>5076</spcszone>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plance></plance>
+					<plandu>International foot</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D_North_American_1983_HARN</horizdn>
+				<ellips></ellips>
+				<semiaxis></semiaxis>
+				<denflat></denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Schools.dbf</enttypl>
+				<enttypd>Description of the school attributes</enttypd>
+				<enttypds></enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>School_ID</attrlabl>
+				<attrdef>Metro-assigned unique ID for each school</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SchInstID</attrlabl>
+				<attrdef>Oregon Dept. of Education school ID - when not defined by the state, this ID is assigned a value of 99999.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DistInstID</attrlabl>
+				<attrdef>Oregon Dept. of Education district ID - not populated for private schools which are not part of a school district.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NCESSchID</attrlabl>
+				<attrdef>National Center for Education Statistics school ID - populated for public schools only</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NCESDistID</attrlabl>
+				<attrdef>National Center for Education Statistics district ID - populated for public schools only</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Site_id</attrlabl>
+				<attrdef>Link to the school_site polygon</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PrimaryUse</attrlabl>
+				<attrdef>True if the school is the primary use on the site (boolean)</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>False</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>True</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Name</attrlabl>
+				<attrdef>Name of school.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Address</attrlabl>
+				<attrdef>Street address of school.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Address2</attrlabl>
+				<attrdef>Non-standard address information, such as building name, PO box or unit number</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>City</attrlabl>
+				<attrdef>City in which the school is located.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>State</attrlabl>
+				<attrdef>State.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Zipcode</attrlabl>
+				<attrdef>United States Postal Service ZIP code.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Zip4</attrlabl>
+				<attrdef>The 4-digit zipcode add-on number.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Phone</attrlabl>
+				<attrdef>Telephone number.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Level_no</attrlabl>
+				<attrdef>A code number indicating level of instruction.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>elementary</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>special education</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Community college</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>middle or junior high</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>high school</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>administration</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>various grade levels</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>college or university</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>headstart</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>preschool or kindergarten</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>skill center or alternative</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Level</attrlabl>
+				<attrdef>Description of the level of instruction, i.e. elementary, middle or high school.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Dist_no</attrlabl>
+				<attrdef>School district number.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>District</attrlabl>
+				<attrdef>School district name.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Grade</attrlabl>
+				<attrdef>Grades of students attending school.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Type</attrlabl>
+				<attrdef>Indicates whether the school is public or private.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>County</attrlabl>
+				<attrdef>County in which the school exists.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Updated</attrlabl>
+				<attrdef>Date of most recent update.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype></addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 797-1742</cntvoice>
+				<cntfax>503 797-1909</cntfax>
+				<cntemail>drc@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>The information in this file was derived from digital databases on Metro's GIS. Care was taken in the creation of this file. Metro cannot accept any responsibility for errors, omissions, or positional accuracy. There are no warranties, expressed or implied.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<transize>0</transize>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>DVD or CD-ROM</offmedia>
+						<recfmt>ISO9660</recfmt>
+					</offoptn>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.oregonmetro.gov/rlisdiscovery</networkr>
+							</networka>
+						</computer>
+						<accinstr>Email drc@oregonmetro.gov or call 503-797-1742 for further instructions.</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>No cost</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20140724</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+					<cntper>Minott Kerr</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 797-1679</cntvoice>
+				<cntfax>503 797-1909</cntfax> 
+				<cntemail>minott.kerr@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+    <Binary>
+        <Thumbnail>
+            <Data EsriPropertyType="PictureX">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</Data>
+        </Thumbnail>
+    </Binary>
+</metadata>

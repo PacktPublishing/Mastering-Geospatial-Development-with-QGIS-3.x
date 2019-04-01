@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metro Data Resource Center</origin>
+				<pubdate>1996</pubdate>
+				<title>Fire Stations</title>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Fire station locations.</abstract>
+			<purpose>For general mapping and analysis.</purpose>
+			<supplinf></supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20101231</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-123.785577699</westbc>
+				<eastbc>-121.440498206</eastbc>
+				<northbc>46.3880499964</northbc>
+				<southbc>44.6838701483</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Fire station</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Portland</placekey>
+				<placekey>Multnomah County</placekey>
+				<placekey>Washington County</placekey>
+				<placekey>Clackamas County</placekey>
+				<placekey>Oregon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This database and GIS data are made available under the Open Database License (ODbL v1) and Database Content License (DbCL v1). See http://www.oregongmetro.gov/rlis-live.</useconst>
+		<browse>
+			<browsen>http://library.oregonmetro.gov/rlisdiscovery/browse_graphic/fire_sta.png</browsen>
+			<browsed>City halls, fire stations and hospitals shown with streets and rivers for orientation.</browsed>
+			<browset>PNG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<logic></logic>
+		<complete></complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Registered to tax lots. Street center lines were digitized from aerial orthophotography at +/- 10 feet accuracy. Tax lots were fit to the street centerlines. Beaverton, Oregon City and Tigard planning areas were improved to +/- 5 feet accuracy. Multnomah County was created with coordinate geometry using better control.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Utilized Public Safety guide to fill in missing station names, addresses, etc.  Adjusted location of stations to the taxlot having the same address and ownership as the station address and district.  Changed station numbers to the new Tualatin Valley Fire and Rescue numbering system.</procdesc>
+				<procdate>19991031</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Projection information (.prj file), compatible with ArcGIS 8.1, was added to the layer.</procdesc>
+				<procdate>20010715</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Locations adjusted using 2000 Spencer Gross aerial photography and attribute data verified by Trimet.</procdesc>
+				<procdate>20010930</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data no longer maintained as a coverage file. Data now maintained as a versioned feature class within a SDE geodatabase.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>NAD_1983_HARN_StatePlane_Oregon_North_FIPS_3601</gridsysn>
+					<spcs>
+						<spcszone>5076</spcszone>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plance></plance>
+					<plandu>International foot</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D_North_American_1983_HARN</horizdn>
+				<ellips></ellips>
+				<semiaxis></semiaxis>
+				<denflat></denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Fire_sta.dbf</enttypl>
+				<enttypd>Description of the fire station attributes</enttypd>
+				<enttypds></enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Station</attrlabl>
+				<attrdef>Name of station</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Address</attrlabl>
+				<attrdef>Address of station.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>City</attrlabl>
+				<attrdef>City in which the station is located.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>District</attrlabl>
+				<attrdef>Fire district or city which owns and manages the station.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype></addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 797-1742</cntvoice>
+				<cntfax>503 797-1909</cntfax>
+				<cntemail>drc@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>The information in this file was derived from digital databases on Metro's GIS. Care was taken in the creation of this file. Metro cannot accept any responsibility for errors, omissions, or positional accuracy. There are no warranties, expressed or implied.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<transize>28 kb</transize>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>DVD or CD-ROM</offmedia>
+						<recfmt>ISO9660</recfmt>
+					</offoptn>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.oregonmetro.gov/rlisdiscovery</networkr>
+							</networka>
+						</computer>
+						<accinstr>Email drc@oregonmetro.gov or call 503-797-1742 for further instructions.</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>No cost</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20101231</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+					<cntper>Kellie Hauger</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503-797-1589</cntvoice>
+				<cntfax>503-797-1909</cntfax>
+				<cntemail>kellie.hauger@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20141211</CreaDate><CreaTime>16124800</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\NEWCONDOR\D$\PACKT\Data\Chapter 4\fire_sta</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\PACKT\Data\Portland\fire_sta" dest="\\NEWCONDOR\D$\PACKT\Data\Chapter 4\fire_sta" date="20141211" time="16124800"></copy></copyHistory></DataProperties></Esri></metadata>

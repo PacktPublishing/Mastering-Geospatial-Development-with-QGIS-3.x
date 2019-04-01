@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>City of Portland</origin>
+				<pubdate></pubdate>
+				<title>neighborhoods_pdx</title>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract></abstract>
+			<purpose></purpose>
+			<supplinf>PORTLAND NEIGHBORHOOD AREAS; </supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>Current</caldate>
+					<updatedate>2013-09-01 22:17:24.0</updatedate>
+				</sngdate>
+			</timeinfo>
+			<current>Ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+  
+		<keywords>
+			<theme>
+				<themekt> </themekt>
+        
+			</theme>
+			<place>
+				<placekt> </placekt>
+        
+					<placekey>Portland</placekey>
+					<placekey>Multnomah County</placekey>
+					<placekey>Washington County</placekey>
+					<placekey>Clackamas County</placekey>
+					<placekey>Oregon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>These data are distributed uner the terms of the City of Portland Data Distribution Policy.  To review the Data Distribution Agreement, please visit http://Portland Data Distribution Policy.</useconst>
+  
+	</idinfo>
+	
+	<dataqual>
+		<posacc>
+			<horizpa>
+				<horizpar>
+				Registered to tax lots. Street center lines were digitized from aerial orthophotography at +/- 10 feet accuracy. Tax lots were fit to the street centerlines. Beaverton, Oregon City and Tigard planning areas were improved to +/- 5 feet accuracy. Multnomah County was created with coordinate geometry using better control. 
+				</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+		
+		</lineage>
+	</dataqual>
+
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype> Polygon</sdtstype>
+			</sdtsterm>
+			<rastinfo>
+				<rasttype></rasttype>
+			</rastinfo>
+		</ptvctinf>
+	</spdoinfo>
+
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>State plane coordinate system 1983(91).</gridsysn>
+					<spcs>
+						<spcszone>5076</spcszone>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plandu>International feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983/1991 (HPGN)</horizdn>
+			</geodetic>
+		</horizsys>
+	</spref>
+
+
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>neighborhoods_pdx</enttypl>
+				<enttypd></enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Feature ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Column containing the shape geometry</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>NBO_</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>NBO_ID</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>COMMPLAN</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>SHARED</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>COALIT</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>CHECK_</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+			<attr>
+				<attrlabl>HORZ_VERT</attrlabl>
+				<attrdef></attrdef>
+
+			</attr>
+			
+		</detailed>
+
+	</eainfo>
+
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Portland - BTS/CGIS</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<address>1120 SW Fifth Avenue, Suite #450</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97204</postal>
+				</cntaddr>
+				<cntvoice>503 823-5632</cntvoice>
+				<cntfax>503 823-9176</cntfax>
+				<cntemail>CGIS@portlandoregon.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>The information in this file was derived from digital databases on the City of Portland GIS. Care was taken in the creation of this file. The City  cannot accept any responsibility for errors, omissions, or positional accuracy.  There are no warranties, expressed or implied.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile  - Cost Recovery fee will be charged for conversion.</formname>
+					<transize>0</transize>
+				</digtinfo>
+				
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfrmt> ISO9660 (DOS, Unix or Macintosh)</recfrmt>
+					</offoptn>
+				</digtopt>
+				
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>www.portlandonline.com</networkr>
+							</networka>
+						</computer>
+						<accinstr> The City of Portland can place the data on a CD upon request.  In most cases, a fee will be charged for data reproduction and preparation.  Call 503-823-5632 or e-mail cgis@ci.portland.or.us for instructions.</accinstr>
+					</onlinopt>
+				</digtopt>
+				
+			</digform>
+			
+			<fees></fees>
+		</stdorder>
+	</distinfo>
+
+	<metainfo>
+		<metd>20130901</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+					<cntper>Unknown</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 823-</cntvoice>
+				<cntfax>503 823-</cntfax>
+				<cntemail></cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv> 19940608</metstdv>
+	</metainfo>
+</metadata> 
+</td></td></td></th></th></th></tr></tr></tr></table></table></table></a></abbrev></acronym></address></applet></au></b></banner></big></blink></blockquote></bq></caption></center></cite></code></comment></del></dfn></dir></div></div></dl></em></fig></fn></font></form></frame></frameset></h1></h2></h3></h4></h5></h6></head>; </ins></kbd></listing></map></marquee></menu></multicol></nobr></noframes></noscript></note></ol></p></param></person></plaintext></pre></q></s></samp></script></select></small></strike></strong></sub></sup></table></td></textarea></th></title></tr></tt></u></ul></var></wbr></xmp>
+<style type="text/css">
+.cfdebug
+{
+	color:black; 
+	background-color:white; 
+	font-family:"Times New Roman", Times, serif; 
+	font-size:small
+}
+
+.cfdebuglge
+{
+	color:black; 
+	background-color:white; 
+	font-family:"Times New Roman", Times, serif; 
+	font-size:medium;
+}
+
+a.cfdebuglink {color:blue; background-color:white }
+</style>
+<table class="cfdebug" bgcolor="white">
+<tr>
+	<td>
+
+		<p class="cfdebug"><hr/>
+		<b class="cfdebuglge"><a name="cfdebug_top">Debugging Information</a></b>
+		<table class="cfdebug">
+		<tr>
+			<td class="cfdebug" nowrap>ColdFusion Server Enterprise</td>
+			<td class="cfdebug">9,0,1,274733</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> Template </td>
+			<td class="cfdebug">/cgis/metadata/editor/xmlout.cfm</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> Time Stamp </td>
+			<td class="cfdebug">03-Sep-13 05:56 PM</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> Locale </td>
+			<td class="cfdebug">English (US)</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> User Agent </td>
+			<td class="cfdebug">ColdFusion</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> Remote IP </td>
+			<td class="cfdebug">127.0.0.1</td>
+		</tr>
+		<tr>
+			<td class="cfdebug" nowrap> Host Name </td>
+			<td class="cfdebug">127.0.0.1</td>
+		</tr>
+		</table>
+		</p>
+		
+			<style type="text/css">
+            .template
+            {	color: black; 
+            	font-family: "Times New Roman", Times, serif; 
+            	font-weight: normal; }
+            .template_overage
+            {	color: red; 
+            	background-color: white; 
+            	font-family: "Times New Roman", Times, serif; 
+            	font-weight: bold; }
+            </style>
+       		<p class="cfdebug"><hr/><b class="cfdebuglge"><a name="cfdebug_execution">Execution Time</a></b></p>
+            <a name="cfdebug_templates">
+        
+                <table border="1" cellpadding="2" cellspacing="0" class="cfdebug">
+                <tr>
+					<td class="cfdebug" align="center"><b>Total Time</b></td>
+					<td class="cfdebug" align="center"><b>Avg Time</b></td>
+					<td class="cfdebug" align="center"><b>Count</b></td>
+					<td class="cfdebug"><b>Template</b></td>
+				</tr>
+                
+    
+                        <tr>
+							
+    	                        <td align="right" class="cfdebug" nowrap>72 ms</td>
+							
+                            <td align="right" class="cfdebug" nowrap>72 ms</td>
+                            <td align="center" class="cfdebug" nowrap>1</td>
+                            <td align="left" class="cfdebug" nowrap><img src='/CFIDE/debug/images/topdoc.gif' alt='top level' border='0'> <b>D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm</b></td>
+                        </tr>
+                        
+    
+                        <tr>
+							
+    	                        <td align="right" class="cfdebug" nowrap>0 ms</td>
+							
+                            <td align="right" class="cfdebug" nowrap>0 ms</td>
+                            <td align="center" class="cfdebug" nowrap>1</td>
+                            <td align="left" class="cfdebug" nowrap>D&#x3a;&#x2f;IISroot&#x2f;PortlandOnline&#x2f;Application.cfm</td>
+                        </tr>
+                        
+                <tr>
+					<td align="right" class="cfdebug" nowrap>; 2 ms; </td><td colspan=2>&nbsp;</td>
+                    <td align="left" class="cfdebug">; STARTUP, PARSING, COMPILING, LOADING, &amp; SHUTDOWN; </td>
+				</tr>
+                <tr>
+					<td align="right" class="cfdebug" nowrap>; 74 ms; </td><td colspan=2>&nbsp;</td>
+                    <td align="left" class="cfdebug">; TOTAL EXECUTION TIME; </td>
+				</tr>
+                </table>
+                <font color="red"><span class="template_overage">red = over 250 ms average execution time</span></font>
+                </a>
+            	
+		<p class="cfdebug"><hr/><b class="cfdebuglge"><a name="cfdebug_sql">SQL Queries</a></b></p>
+		
+			<code><b>layer</b> (Datasource=drcrlis, Time=9ms, Records=1) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+  SELECT * 
+  FROM metadata_layer l, metadata_common c, metadata_contact con
+  WHERE l.layer_id = 53509 AND l.common_id = c.common_id AND 
+	      l.meta_contact_id = con.meta_contact_id
+</pre>
+			
+			
+			<code><b>lineage</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+  SELECT process_desc,process_date 
+  FROM metadata_lineage
+  WHERE layer_id = 53509
+  ORDER BY process_date
+</pre>
+			
+			
+			<code><b>GetTable</b> (Datasource=drcrlis, Time=11ms, Records=1) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+  SELECT * 
+	FROM
+  
+      metadata_lay2sdetab lt, metadata_table t
+  
+  WHERE lt.layer_id = 53509 AND lt.table_id = t.table_id
+</pre>
+			
+			
+			<code><b>transfer_on</b> (Datasource=drcrlis, Time=4ms, Records=1) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT network_resource_name, access_instructions
+	FROM metadata_layer l, metadata_transfer_on t
+	WHERE layer_id = 53509 AND l.common_id = t.common_id
+</pre>
+			
+			
+			<code><b>transfer_off</b> (Datasource=drcrlis, Time=3ms, Records=1) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT offline_media, recording_format
+	FROM metadata_layer l, metadata_transfer_off t
+	WHERE layer_id = 53509 AND l.common_id = t.common_id
+</pre>
+			
+			
+			<code><b>GetColumn</b> (Datasource=drcrlis, Time=8ms, Records=9) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>SELECT * FROM metadata_column WHERE table_id = 52116 order by sort</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=4ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288414 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=4ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288415 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288416 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288417 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=4ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288418 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288419 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288420 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288421 order by sort
+</pre>
+			
+			
+			<code><b>GetDomain</b> (Datasource=drcrlis, Time=3ms, Records=0) in D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm @ 17:56:31.031</code><br />
+			<pre>
+	SELECT *
+	FROM metadata_domain
+	WHERE column_id = 288422 order by sort
+</pre>
+			
+			
+<p class="cfdebug"><hr/><b class="cfdebuglge"><a name="cfdebug_scopevars">Scope Variables</a></b></p>
+
+
+<pre><b>Application Variables:</b>
+applicationname=PortlandOnline
+</pre>
+
+<pre><b>CGI Variables:</b>
+AUTH_PASSWORD=
+AUTH_TYPE=
+AUTH_USER=
+CERT_COOKIE=
+CERT_FLAGS=
+CERT_ISSUER=
+CERT_KEYSIZE=
+CERT_SECRETKEYSIZE=
+CERT_SERIALNUMBER=
+CERT_SERVER_ISSUER=
+CERT_SERVER_SUBJECT=
+CERT_SUBJECT=
+CF_TEMPLATE_PATH=D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm
+CONTENT_LENGTH=
+CONTENT_TYPE=
+CONTEXT_PATH=
+GATEWAY_INTERFACE=CGI/1.1
+HTTPS=off
+HTTPS_KEYSIZE=
+HTTPS_SECRETKEYSIZE=
+HTTPS_SERVER_ISSUER=
+HTTPS_SERVER_SUBJECT=
+HTTP_ACCEPT=
+HTTP_ACCEPT_ENCODING=deflate, gzip, x-gzip, compress, x-compress
+HTTP_ACCEPT_LANGUAGE=
+HTTP_CONNECTION=close, TE
+HTTP_COOKIE=
+HTTP_HOST=dev.portlandonline.com
+HTTP_REFERER=
+HTTP_USER_AGENT=ColdFusion
+PATH_INFO=/cgis/metadata/editor/xmlout.cfm
+PATH_TRANSLATED=D:\IISroot\PortlandOnline\cgis\metadata\editor\xmlout.cfm
+QUERY_STRING=Meta_layer_id=53509&amp;Db_type=sde
+REMOTE_ADDR=127.0.0.1
+REMOTE_HOST=127.0.0.1
+REMOTE_USER=
+REQUEST_METHOD=GET
+SCRIPT_NAME=/cgis/metadata/editor/xmlout.cfm
+SERVER_NAME=dev.portlandonline.com
+SERVER_PORT=80
+SERVER_PORT_SECURE=0
+SERVER_PROTOCOL=HTTP/1.1
+SERVER_SOFTWARE=Microsoft-IIS/7.5
+WEB_SERVER_API=
+</pre>
+
+<pre><b>Request Parameters:</b>
+__FusionReactor=Complex type
+</pre>
+
+<pre><b>Server Variables:</b>
+A0608BEC-0AEB-B46A-0E1E1EC5F3CE7C9C.1.1=Complex type
+HOSTNAME=CGISWEBDEV
+JAVALOADER=Struct (6)
+JERRORREPORTER=Complex type
+JOUTPUTSTREAM=Complex type
+JSTRINGREADER=Complex type
+JSTRINGWRITER=Complex type
+JYUIJAVASCRIPTCOMPRESSOR=Complex type
+coldfusion=Struct (9)
+os=Struct (5)
+</pre>
+
+<pre><b>URL Parameters:</b>
+Db_type=sde
+Meta_layer_id=53509
+</pre>
+
+<font size="-1" class="cfdebug">; Debug Rendering Time: 33 ms; </font><br />
+
+	</td>
+</tr>
+</table>
