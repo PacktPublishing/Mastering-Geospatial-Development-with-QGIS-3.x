@@ -1,0 +1,111 @@
+{
+    "values": {
+        "inputs": {
+            "RASTERLAYER_DEM": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 168.0, 
+                            "x": 181.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "RASTERLAYER_DEM", 
+                            "hidden": false, 
+                            "description": "DEM", 
+                            "optional": false, 
+                            "value": null, 
+                            "exported": null
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "VECTORLAYER_WATERSHEDS": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 94.0, 
+                            "x": 180.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_WATERSHEDS", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Watersheds"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Hydrology", 
+        "name": "DEMs Clipped to Watersheds", 
+        "algs": {
+            "SAGACLIPGRIDWITHPOLYGON_1": {
+                "values": {
+                    "name": "SAGACLIPGRIDWITHPOLYGON_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "Watershed DEM", 
+                                "pos": {
+                                    "values": {
+                                        "y": 266.0, 
+                                        "x": 414.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 152.0, 
+                            "x": 471.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "RASTERLAYER_DEM"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "POLYGONS": {
+                            "values": {
+                                "name": "VECTORLAYER_WATERSHEDS"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:clipgridwithpolygon", 
+                    "description": "Clip grid with polygon"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

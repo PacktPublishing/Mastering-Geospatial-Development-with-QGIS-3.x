@@ -1,0 +1,147 @@
+{
+    "values": {
+        "inputs": {
+            "RASTERLAYER_DEM": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 57.0, 
+                            "x": 146.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "RASTERLAYER_DEM", 
+                            "hidden": false, 
+                            "description": "DEM", 
+                            "optional": false, 
+                            "value": null, 
+                            "exported": null
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Hydrology", 
+        "name": "TWI From DEM", 
+        "algs": {
+            "SAGACATCHMENTAREA_1": {
+                "values": {
+                    "name": "SAGACATCHMENTAREA_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 65.0, 
+                            "x": 433.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "ELEVATION": {
+                            "values": {
+                                "name": "RASTERLAYER_DEM"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Method": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:catchmentarea", 
+                    "description": "Catchment Area"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGASLOPEASPECTCURVATURE_1": {
+                "values": {
+                    "name": "SAGASLOPEASPECTCURVATURE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 171.0, 
+                            "x": 234.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "ELEVATION": {
+                            "values": {
+                                "name": "RASTERLAYER_DEM"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "METHOD": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:slopeaspectcurvature", 
+                    "description": "Slope, aspect, curvature"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGATOPOGRAPHICWETNESSINDEXTWI_1": {
+                "values": {
+                    "name": "SAGATOPOGRAPHICWETNESSINDEXTWI_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "TWI": {
+                            "values": {
+                                "description": "TWI", 
+                                "pos": {
+                                    "values": {
+                                        "y": 384.0, 
+                                        "x": 543.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 285.0, 
+                            "x": 451.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "SLOPE": {
+                            "values": {
+                                "alg": "SAGASLOPEASPECTCURVATURE_1", 
+                                "output": "SLOPE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TRANS": null, 
+                        "METHOD": 0, 
+                        "CONV": 1, 
+                        "AREA": {
+                            "values": {
+                                "alg": "SAGACATCHMENTAREA_1", 
+                                "output": "CAREA"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:topographicwetnessindextwi", 
+                    "description": "Topographic wetness index (twi)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

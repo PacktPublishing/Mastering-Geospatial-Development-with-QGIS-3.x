@@ -1,0 +1,1 @@
+processing.runAndLoadResults("gdal:cliprasterbyextent", {'INPUT': 'F:/Mastering Geospatial Development with QGIS 3.2/Code/Code/Chapter 9/elevation.tif', 'PROJWIN': '440000, 460000, 4030000, 4045000', 'NODATA': 999, 'DATA_TYPE': 0, 'OUTPUT': 'NONE'})
