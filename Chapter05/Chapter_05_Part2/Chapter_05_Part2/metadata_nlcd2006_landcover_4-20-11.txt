@@ -1,0 +1,456 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Geological Survey
+      Publication_Date: 20110216
+      Title: NLCD 2006 Land Cover
+      Edition: 1.0
+      Geospatial_Data_Presentation_Form: remote-sensing image
+      Series_Information:
+        Series_Name: None
+        Issue_Identification: None
+      Publication_Information:
+        Publication_Place: Sioux Falls, SD
+        Publisher: U.S. Geological Survey
+      Other_Citation_Details:
+        References:
+        (1)  Homer, C., Huang, C., Yang, L., Wylie, B., & Coan M., (2004).  Development of a 2001 National Land Cover Database for the United States.  Photogrammetric Engineering and Remote Sensing, 70, 829 - 840.
+
+        (2)  Jin, S., Yang, L., Xian, G., Danielson, P., Fry, J., and Homer C., (2011).  A multi-index integrated change detection method for updating the National Land Cover Database (In Preparation).
+
+        (3)  Nowak, D. J., & Greenfield, E. J., (2010).  Evaluating the National Land Cover Database tree canopy and impervious cover estimates across the conterminous United States:  A comparison with photo-interpreted estimates.  Environmental Management, 46, 378 - 390.
+
+        (4)  Wickham, J. D., Stehman S. V., Fry, J. A., Smith, J. H., & Homer, C. G., (2010).  Thematic accuracy of the NLCD 2001 land cover for the conterminous United States.  Remote Sensing of Environment, 114, 1286 - 1296.
+
+        (5)  Xian, G., Homer, C., and Fry, J., (2009).  Updating the 2001 National Land Cover Database land cover classification to 2006 by using Landsat imagery change detection methods.  Remote Sensing of Environment, 113, 1133-1147.
+
+        (6)  Xian, G., and Homer C.,  (2010).  Updating the 2001 National Land Cover Database impervious surface products to 2006 using Landsat imagery change detection methods.  Remote Sensing of Environment, 114, 1676-1686.
+
+        The USGS acknowledges the support of USGS NLCD 2006 Land Cover Mapping Teams in development of data for this map.
+      Online_Linkage: http://www.mrlc.gov
+  Description:
+    Abstract:
+      The National Land Cover Database products are created through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium.  The MRLC Consortium is a partnership of federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture (USDA), the U.S. Forest Service (USFS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS).  Previously, NLCD consisted of three major data releases based on a 10-year cycle.  These include a circa 1992 conterminous U.S. land cover dataset with one thematic layer (NLCD 1992), a circa 2001 50-state/Puerto Rico updated U.S. land cover database (NLCD 2001) with three layers including thematic land cover, percent imperviousness, and percent tree canopy, and a 1992/2001 Land Cover Change Retrofit Product.  With these national data layers, there is often a 5-year time lag between the image capture date and product release.  In some areas, the land cover can undergo significant change during production time, resulting in products that may be perpetually out of date.  To address these issues, this circa 2006 NLCD land cover product (NLCD 2006) was conceived to meet user community needs for more frequent land cover monitoring (moving to a 5-year cycle) and to reduce the production time between image capture and product release.  NLCD 2006 is designed to provide the user both updated land cover data and additional information that can be used to identify the pattern, nature, and magnitude of changes occurring between 2001 and 2006 for the conterminous United States at medium spatial resolution.
+
+      For NLCD 2006, there are 3 primary data products:  1) NLCD 2006 Land Cover map; 2) NLCD 2001/2006 Change Pixels labeled with the 2006 land cover class; and 3) NLCD 2006 Percent Developed Imperviousness.  Four additional data products were developed to provide supporting documentation and to provide information for land cover change analysis tasks:  4) NLCD 2001/2006 Percent Developed Imperviousness Change; 5) NLCD 2001/2006 Maximum Potential Change derived from the raw spectral change analysis; 6) NLCD 2001/2006 From-To Change pixels; and 7) NLCD 2006 Path/Row Index vector file showing the footprint of Landsat scene pairs used to derive 2001/2006 spectral change with change pair acquisition dates and scene identification numbers included in the attribute table.
+
+      In addition to the 2006 data products listed in the paragraph above, two of the original release NLCD 2001 data products have been revised and reissued.  Generation of NLCD 2006 data products helped to identify some update issues in the NLCD 2001 land cover and percent developed imperviousness data products.  These issues were evaluated and corrected, necessitating a reissue of NLCD 2001 data products (NLCD 2001 Version 2.0) as part of the NLCD 2006 release.  A majority of NLCD 2001 updates occur in coastal mapping zones where NLCD 2001 was published prior to the National Oceanic and Atmospheric Administration (NOAA) Coastal Change Analysis Program (C-CAP) 2001 land cover products.  NOAA C-CAP 2001 land cover has now been seamlessly integrated with NLCD 2001 land cover for all coastal zones.  NLCD 2001 percent developed imperviousness was also updated as part of this process.
+
+      Land cover maps, derivatives and all associated documents are considered "provisional" until a formal accuracy assessment can be conducted.  The NLCD 2006 is created on a path/row basis and mosaicked to create a seamless national product.  Questions about the NLCD 2006 land cover product can be directed to the NLCD 2006 land cover mapping team at the USGS/EROS, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov.
+    Purpose: The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.
+    Supplemental_Information:
+      Corner Coordinates (center of pixel, projection meters)
+      Upper Left Corner:  -2493045 meters(X),  3310005 meters(Y)
+      Lower Right Corner: -177285 meters(X),  2342655 meters(Y)
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20050211
+        Ending_Date: 20071003
+    Currentness_Reference: ground condition
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Every 5 Years
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -130.232828
+      East_Bounding_Coordinate: -63.672192
+      North_Bounding_Coordinate: 52.877264
+      South_Bounding_Coordinate: 21.742308
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Land Cover
+      Theme_Keyword: GIS
+      Theme_Keyword: U.S. Geological Survey
+      Theme_Keyword: USGS
+      Theme_Keyword: digital spatial data
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Category
+      Theme_Keyword: imageryBaseMapsEarthCover
+      Theme_Keyword: 010
+    Place:
+      Place_Keyword_Thesaurus: U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard 10-4,): Washington, D.C., National Institute of Standards and Technology
+      Place_Keyword: United States
+      Place_Keyword: U.S.
+      Place_Keyword: US
+  Access_Constraints: None
+  Use_Constraints: None
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+      Contact_Position: Customer Services Representative
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS/EROS
+        Address: 47914 252nd Street
+        City: Sioux Falls
+        State_or_Province: SD
+        Postal_Code: 57198-0001
+        Country: USA
+      Contact_Voice_Telephone: 605/594-6151
+      Contact_Facsimile_Telephone: 605/594-6589
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+      Hours_of_Service: 0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)
+      Contact_Instructions:
+        The USGS point of contact is for questions relating to the data display and download from this web site.  For questions regarding data content and quality, refer to:
+        http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov
+  Data_Set_Credit: U.S. Geological Survey
+  Security_Information:
+    Security_Classification_System: None
+    Security_Classification: Unclassified
+    Security_Handling_Description: N/A
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Data quality information for the NLCD 2001 re-issued base unchanged pixels is reported in the manuscript:  Wickham, J., D., Stehman, S. V., Fry, J. A., Smith, J. H.,  & Homer, C. G., (2010), Thematic accuracy of the NLCD 2001 land cover for the conterminous United States, Remote Sensing of Environment, 114, 1286 - 1296.  Accuracy for the NLCD 2006 changed pixels is currently being assessed.
+    Quantitative_Attribute_Accuracy_Assessment:
+      Attribute_Accuracy_Value: Unknown
+      Attribute_Accuracy_Explanation: This document and the described landcover map are considered "provisional" until a formal accuracy assessment is completed.  The U.S. Geological Survey can make no guarantee as to the accuracy or completeness of this information, and it is provided with the understanding that it is not guaranteed to be correct or complete. Conclusions drawn from this information are the responsibility of the user.
+  Logical_Consistency_Report: The NLCD 2006 final seamless products include:  1) NLCD 2006 Land Cover map, 2) NLCD 2006 Percent Developed Imperviousness ; 3) NLCD 2001/2006 Change Pixels labeled with the 2006 land cover class; 4) NLCD 2001/2006 Percent Developed Imperviousness Change; 5) Maximum Potential Spectral Change; 6) NLCD 2001/2006 From - To Change pixels;  7) NLCD 2006 Path Row Index.
+  Completeness_Report: This NLCD product is the version dated February 14, 2011.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: N/A
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: N/A
+  Lineage:
+    Process_Step:
+      Process_Description:
+        Landsat image selection and preprocessing.  For the change analysis, a two-date pair of Landsat scenes was selected for each path/row restricting temporal range to reduce the impact of seasonal and phenological variation.  A pre-processing step was performed to convert the digital number to top of atmosphere reflectance using procedures similar to those established for the NLCD 2001 mapping effort (Homer et al., 2004).  Reflectance derivatives, including a tasseled-cap transformation and a 3-ratio index, were generated for each scene to use in the modeling process as independent variables.  Where present, clouds and cloud shadows were digitized for masking.
+
+        NLCD 2006 Percent Developed Imperviousness (Final Product) and Percent Developed Imperviousness Change Analysis.  Because the four NLCD developed classes are derived from a percent imperviousness mapping product, an overview of steps required to update the NLCD 2001 imperviousness to reflect urban growth captured in 2006 era Landsat imagery is provided here (Xian, et al., 2010).  First, 2001 nighttime lights imagery from the NOAA Defense Meteorological Satellite Program (DMSP) was imposed on the NLCD 2001 impervious surface product to exclude low density imperviousness outside urban and suburban centers so that only imperviousness in urban core areas would be used in the training dataset. Two training datasets, one having a relatively larger urban extent and one having a smaller extent, were produced through imposing two different thresholds on city light imagery. Second, each of the two training datasets combined with 2001 Landsat imagery was separately applied using a regression tree (RT) algorithm to build up RT models. Two sets of RT models were then used to estimate percent imperviousness and to produce two 2001 synthetic impervious surfaces. Similarly, the same two training datasets were used with 2006 Landsat imagery to create two sets of RT models that produce two 2006 synthetic impervious surfaces. Third, the 2001 and 2006 synthetic impervious surface pairs were compared using both 2001 impervious surface products to retain 2001 impervious surface area (ISA) in the unchanged areas. The 2006 DMSP nighttime lights imagery was then employed to ensure that non-imperviousness areas were not included and that new impervious surfaces emerged in the city light extent. After this step, two 2006 intermediate impervious surfaces were produced. Finally, the two intermediate products and 2001 imperviousness were compared to remove false estimates in non-urban areas and generate a 2006 impervious surface estimate.  Imperviousness threshold values used to derive the NLCD developed classes are: (1) developed open space (imperviousness < 20%), (2) low-intensity developed (imperviousness from 20 - 49%), (3) medium intensity developed (imperviousness from 50 -79%), and (4) high-intensity developed (imperviousness > 79%).  During this process, inconsistencies in the NLCD 2001 Percent Developed Imperviousness product were corrected with the new product, NLCD 2001 Percent Developed Imperviousness Version 2.0, included as part of the NLCD 2006 product release.
+
+        Land Cover Change Analysis.  For the NLCD 2006 Land Cover Update, a new change detection method, Multi-Index Integrated Change (MIIC), was developed to capture a full range of land cover disturbance and potential land cover change patterns for updating the National Land Cover Database (Jin, et al., In Preparation). Recognizing the potential complementary nature of multiple spectral indices in detection of different land cover changes, we integrated four indices into one model to more accurately detect true land cover changes between two time periods.  Within the model, normalized burn ratio (NBR), change vector (CV, Xian, et al., 2009), relative change vector (RCV), and normalized difference vegetation index (NDVI) are calculated separately for the early date (circa 2001) and late date (circa 2006) scenes.  The four pairs of indices for the two dates are differenced and then evaluated in a final model conditional statement that categorizes each pixel as either biomass increase, biomass decrease, or no change.  Individual path/row raw results from this change analysis process are assembled into a seamless national product to form the NLCD 2001/2006 Maximum Potential Change map.  The integrated change result is clumped and sieved to produce a refined change/no-change mask used below.
+
+        NLCD 2006 Land Cover Classification.  Land cover mapping protocols used during NLCD 2006 processing are similar to those used to label the NLCD 2001 product (Homer, et al., 2004), but applied on a path/row basis instead of multiple path/row MRLC zones (Xian, et al., 2009).  Classification was achieved using decision tree modeling that employed a combination of Landsat imagery, reflectance derivatives, and ancillary data (independent variables) with training data points (dependent variable) collected from a refined version of the NLCD 2001 land cover product.  Training points were randomly sampled and limited to those areas that were determined to be unchanged between 2001 and 2006 during the MIIC spectral change analysis process.  Training data for pixels changed to developed land cover were not collected since the four classes in urban and sub-urban areas were mapped separately using a regression tree modeling method (described in the Imperviousness Change Analysis process steps above).  Post classification modeling and hand-editing were used to further refine the decision tree output.  Following classification, the 2006 land cover was masked with the change/no-change result (captured during the MIIC change analysis modeling) to extract a label for spectrally changed pixels.  Labeled change pixels were then compared to the NLCD 2001 land cover base to exclude those pixels identified as spectral change, but classified with the same label as the corresponding 2001 pixel.  NLCD 2006 percent developed impervious pixels, identified as changed, were extracted to NLCD developed class codes using NLCD 2001 legend thresholds for developed classes and added to the change pixel map.  This intermediate change pixel product was generalized using the NLCD Smart Eliminate tool with the following minimum mapping units (mmu) applied:  1 acre (approximately 5 ETM+ 30 m  pixel patch) for developed classes (class codes 21, 22, 23, and 24); 7.12 acres (approximately 32 ETM+ pixel patch) for agricultural classes (class codes 81 and 82); and 2.67 acres (approximately 12 ETM+ pixel patch) for all other classes (class codes 11, 12, 31, 41, 42, 43, 52, 71, 90, and 95).  The smart eliminate aggregation program subsumes pixels from the single pixel level to the mmu pixel patch using a queens algorithm at doubling intervals. The algorithm consults a weighting matrix to guide merging of cover types by similarity, resulting in a product that preserves land cover logic as much as possible.  During the NLCD 2006 analysis and modeling process, inconsistencies in the NLCD 2001 Land cover product were corrected with the new product, NLCD 2001 Land Cover Version 2.0, included as part of the NLCD 2006 product release.
+
+        NLCD 2006 Land Cover (Final Product).  Additional processing steps were designed to create the final NLCD 2006 land cover map.  Individual path/row change pixel results were assembled to form an intermediate seamless national product.  This seamless change pixel map was reviewed and edited to remove regional inconsistencies.  Refined NLCD 2006 change pixels were then combined with the re-issued NLCD 2001 Land Cover Version 2.0, and the resulting image was smart-eliminated to a 5-pixel mmu.  This final step eliminated single pixels and patches less than 5 pixels in extent that appeared as a result of combining the separate images.
+
+        NLCD 2006 Change Pixels (Final Product).  A comparison of the NLCD 2001 re-issued base and the NLCD 2006 Land Cover was necessary to extract a final version of the NLCD 2006 Change Pixels.  In a model, pixels that were labeled with the same land cover class code were removed and only those pixels that did not agree in the two classifications were retained as final NLCD 2006 Change Pixels.
+
+        NLCD 2001/2006 Percent Developed Imperviousness Change (Supplementary Raster Layer).  The NLCD 2001 Percent Developed Imperviousness Version 2.0 and the NLCD 2006 Percent Developed Imperviousness were compared in a model to provide the user community with a layer that highlights imperviousness change between 2001 and 2006.
+
+        NLCD 2006 Maximum Potential Spectral Change (Supplementary Raster Layer).  A raster layer containing all pixels identified in the raw change detection process and additional pixels identified as changed in NOAA C-CAP 2001-2006 change products.  Raw change includes areas of biomass increase (value 1) and biomass decrease (value 2) with background (127) and clouds (value 250) identified separately.  Only a portion of these pixels were ultimately selected as real change during our final protocols.  This product was assembled from individual path/row MIIC raw change results.
+
+        NLCD 2006 From-To Change Pixels (Supplementary Raster Layer).  Although similar to the NLCD 2006 change pixel map, the from-to change pixel image was derived from a direct comparison between the re-issued seamless NLCD 2001 Land Cover Version 2.0 Map and the seamless NLCD 2006 Land Cover Map.  An index value for each possible change combination was assigned using a from-to change matrix with sequentially numbered cells (see matrix and index values in entity and attribute section).  Pixels are labeled with an index value created from a matrix of every possible change combination (see entity and attribute information for details).
+
+        NLCD 2006 Path/Row Index (Supplementary Vector Layer).  To create seamless national layers from individually processed path/rows required assembly of components.  The path/row index identifies each Landsat scene pair footprint and includes a Landsat acquisition date attribute and scene identification number attribute for each scene pair used during the NLCD 2006 change analysis and land cover modeling process.  The mosaic was made using a model to code each footprint with the appropriate path/row value using a <path>0<row> scheme.  For example, all pixels in the footprint for path 29/row 30 would be value 29030 in the path/row index vector file.
+
+        Landsat data and ancillary data used for the land cover prediction -
+
+        For a list of Landsat scenes and scene dates by path/row used in this project, please see:  appendix1_nlcd2006_scene_list_by_path_row.txt
+
+        Data Type of DEM composed of 1 band of Continuous Variable Type.
+
+        Data Type of Slope composed of 1 band of Continuous Variable Type.
+
+        Data Type of Aspect composed of 1 band of Categorical Variable Type.
+
+        Data type of Position Index composed of 1 band of Continuous Variable Type.
+
+        Data type of 3-ratio index composed of 3 bands of Continuous Variable Type.
+
+      Source_Used_Citation_Abbreviation: Landsat ETM, Landsat TM, DEM, USGS/EROS
+      Process_Date: Unknown
+      Source_Produced_Citation_Abbreviation: USGS NLCD
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: U.S. Geological Survey
+          Contact_Position: Customer Service Representative
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: USGS/EROS
+            Address: 47914 252nd Street
+            City: Sioux Falls
+            State_or_Province: SD
+            Postal_Code: 57198-0001
+            Country: USA
+          Contact_Voice_Telephone: 605/594-6151
+          Contact_Facsimile_Telephone: 605/594-6589
+          Contact_Electronic_Mail_Address: custserv@usgs.gov
+          Hours_of_Service: 0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: C:\DOCUME~1\jfry\LOCALS~1\Temp\xml93.tmp
+      Process_Date: 20110211
+      Process_Time: 16103000
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Pixel
+    Row_Count: 104424
+    Column_Count: 161190
+    Vertical_Count: 1
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Albers Conical Equal Area
+        Albers_Conical_Equal_Area:
+          Standard_Parallel: 29.500000
+          Standard_Parallel: 45.500000
+          Longitude_of_Central_Meridian: -96.000000
+          Latitude_of_Projection_Origin: 23.000000
+          False_Easting: 0.000000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 30.000000
+          Ordinate_Resolution: 30.000000
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Layer_1
+      Entity_Type_Definition: NLDC Land Cover Layer
+      Entity_Type_Definition_Source: National Land Cover Database
+    Attribute:
+      Attribute_Label: ObjectID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Count
+      Attribute_Definition: A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Integer
+    Attribute:
+      Attribute_Label: Value
+      Attribute_Definition: Land Cover Class Code Value.
+      Attribute_Definition_Source: NLCD Legend Land Cover Class Descriptions
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Open Water - All areas of open water, generally with less than 25% cover or vegetation or soil
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 12
+          Enumerated_Domain_Value_Definition: Perennial Ice/Snow - All areas characterized by a perennial cover of ice and/or snow,generally greater than 25% of total cover.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 21
+          Enumerated_Domain_Value_Definition: Developed, Open Space - Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses.  Impervious surfaces account for less than 20 percent of total cover.  These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 22
+          Enumerated_Domain_Value_Definition: Developed, Low Intensity -Includes areas with a mixture of constructed materials and vegetation.  Impervious surfaces account for 20-49 percent of total cover.  These areas most commonly include single-family housing units.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 23
+          Enumerated_Domain_Value_Definition: Developed, Medium Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover.  These areas most commonly include single-family housing units.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 24
+          Enumerated_Domain_Value_Definition: Developed, High Intensity - Includes highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial.  Impervious surfaces account for 80 to100 percent of the total cover.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 31
+          Enumerated_Domain_Value_Definition: Barren Land (Rock/Sand/Clay) - Barren areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 41
+          Enumerated_Domain_Value_Definition: Deciduous Forest  - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species shed foliage simultaneously in response to seasonal change.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 42
+          Enumerated_Domain_Value_Definition: Evergreen Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species maintain their leaves all year. Canopy is never without green foliage.  Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions        
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 43
+          Enumerated_Domain_Value_Definition: Mixed Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75 percent of total tree cover.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 51
+          Enumerated_Domain_Value_Definition: Dwarf Scrub - Alaska only areas dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 52
+          Enumerated_Domain_Value_Definition: Shrub/Scrub - Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 71
+          Enumerated_Domain_Value_Definition: Grassland/Herbaceous - Areas dominated by grammanoid or herbaceous vegetation, generally greater than 80% of total vegetation.  These areas are not subject to intensive management such as tilling, but can be utilized for grazing.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 72
+          Enumerated_Domain_Value_Definition: Sedge/Herbaceous - Alaska only areas dominated by sedges and forbs, generally greater than 80% of total vegetation. This type can occur with significant other grasses or other grass like plants, and includes sedge tundra, and sedge tussock tundra.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 73
+          Enumerated_Domain_Value_Definition: Lichens - Alaska only areas dominated by fruticose or foliose lichens generally greater than 80% of total vegetation.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 74
+          Enumerated_Domain_Value_Definition: Moss- Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 81
+          Enumerated_Domain_Value_Definition: Pasture/Hay  - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20 percent of total vegetation.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 82
+          Enumerated_Domain_Value_Definition: Cultivated Crops - Areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20 percent of total vegetation. This class also includes all land being actively tilled.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 90
+          Enumerated_Domain_Value_Definition: Woody Wetlands - Areas where forest or shrub land vegetation accounts for greater than 20 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 95
+          Enumerated_Domain_Value_Definition: Emergent Herbaceous Wetlands - Areas where perennial herbaceous vegetation accounts for greater than 80 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
+          Enumerated_Domain_Value_Definition_Source: NLCD Legend Land Cover Class Descriptions
+    Attribute:
+      Attribute_Label: Red
+      Attribute_Definition: Red color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.
+      Attribute_Definition_Source: NLCD
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+          Attribute_Units_of_Measure: Percentage
+          Attribute_Measurement_Resolution: 0.1
+    Attribute:
+      Attribute_Label: Green
+      Attribute_Definition: Green color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.
+      Attribute_Definition_Source: NLCD
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+          Attribute_Units_of_Measure: Percentage
+          Attribute_Measurement_Resolution: 0.1
+    Attribute:
+      Attribute_Label: Blue
+      Attribute_Definition: Blue color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.
+      Attribute_Definition_Source: NLCD
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+          Attribute_Units_of_Measure: Percentage
+          Attribute_Measurement_Resolution: 0.1
+    Attribute:
+      Attribute_Label: Opacity
+      Attribute_Definition: A measure of how opaque, or solid, a color is displayed in a layer.
+      Attribute_Definition_Source: NLCD
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+          Attribute_Units_of_Measure: Percentage
+          Attribute_Measurement_Resolution: 0.1
+  Overview_Description:
+    Entity_and_Attribute_Overview:  Land Cover Class RGB Color Value Table
+    Entity_and_Attribute_Detail_Citation: Attributes defined by USGS and ESRI.
+      Value Red            Green           Blue
+      0     0.00000000000  0.00000000000  0.00000000000
+      11    0.27843137255  0.41960784314  0.62745098039
+      12    0.81960784314  0.86666666667  0.97647058824
+      21    0.86666666667  0.78823529412  0.78823529412
+      22    0.84705882353  0.57647058824  0.50980392157
+      23    0.92941176471  0.00000000000  0.00000000000
+      24    0.66666666667  0.00000000000  0.00000000000
+      31    0.69803921569  0.67843137255  0.63921568628
+      41    0.40784313726  0.66666666667  0.38823529412
+      42    0.10980392157  0.38823529412  0.18823529412
+      43    0.70980392157  0.78823529412  0.55686274510
+      51    0.64705882353  0.54901960784  0.18823529412
+      52    0.80000000000  0.72941176471  0.48627450980
+      71    0.88627450980  0.88627450980  0.75686274510
+      72    0.78823529412  0.78823529412  0.46666666667
+      73    0.60000000000  0.75686274510  0.27843137255
+      74    0.46666666667  0.67843137255  0.57647058824
+      81    0.85882352941  0.84705882353  0.23921568628
+      82    0.66666666667  0.43921568628  0.15686274510
+      90    0.72941176471  0.84705882353  0.91764705882
+      95    0.43921568628  0.63921568628  0.72941176471
+  Overview_Description:
+    Entity_and_Attribute_Overview: N/A
+    Entity_and_Attribute_Detail_Citation: Attribute accuracy is described, where present, with each attribute defined in the Entity and Attribute Section.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+      Contact_Position: Customer Service Representative
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS/EROS
+        Address: 47914 252nd Street
+        City: Sioux Falls
+        State_or_Province: SD
+        Postal_Code: 57198-0001
+        Country: USA
+      Contact_Voice_Telephone: 605/594-6151
+      Contact_Facsimile_Telephone: 605/594-6589
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+      Hours_of_Service: 0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)
+      Contact_Instructions: The USGS point of contact is for questions relating to the data display and download from this web site.  Questions about the NLCD 2006 Path Row Index can be directed to the NLCD 2006 mapping team at USGS/EROS Center, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov.
+  Resource_Description: Downloadable data
+  Distribution_Liability: Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  Data may have been compiled from various outside sources.  Spatial information may not meet National Map Accuracy Standards.  This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Arc/Info Export Format and/or ArcView Shapefile
+        Format_Version_Number: ArcGIS 9.3
+        Format_Specification: .img
+        Transfer_Size: 0.001
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://seamless.usgs.gov
+          Access_Instructions: The URL http://seamless.usgs.gov provides a map interface that allows for data downloads within a customer defined area of interest.  Zoom tools are available that can be used to investigate areas of interest on the map interface.  The download tool allows the customer to capture layers from the map, utilizing the Seamless Data Distribution System process for downloading.  A request summary page is then generated with the download layers listed.  By clicking the "download" button on the summary page, a zipped file will be generated that can be saved on the customer's computer.  The file can then be unzipped and imported into various user software applications.
+          Online_Computer_and_Operating_System: Not available for dissemination
+    Fees: None
+    Ordering_Instructions: Contact Customer Services
+    Turnaround: Variable
+  Custom_Order_Process: Contact Customer Services Representative
+  Technical_Prerequisites: ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20110216
+        Ending_Date: unknown
+Metadata_Reference_Information:
+  Metadata_Date: 20110214
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+      Contact_Position: Customer Services Representative
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS/EROS
+        Address: 47914 252nd Street
+        City: Sioux Falls
+        State_or_Province: SD
+        Postal_Code: 57198-0001
+        Country: USA
+      Contact_Voice_Telephone: 605/594-6151
+      Contact_Facsimile_Telephone: 605/594-6589
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+      Hours_of_Service: 0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
