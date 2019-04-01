@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">Road</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\ds.fs.fed.us\EFS\\FS\NFS\R06\Program\ResourceInfoMgmt\GIS\CSA1\Workspace\iward\TransportationDataPackage\Transportation_Pack_gip.mdb</onlink>
+				<ftname Sync="TRUE">Road</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>A route system depicting all roads within or in close proximity to an administrative unit.</abstract>
+			<purpose>A road is a motor vehicle travel way over 50 inches wide, unless classified and managed as a trail.  A road may be classified or unclassified.  Classified roads are roads within National Forest System lands planned and managed for motor vehicle access including State roads, county roads, private roads, permitted roads, and Forest Service roads.  Unclassified roads are roads not intended to be a part of  nor  managed as a part of the forest transportation system, such as temporary roads, and unplanned, unengineered, unauthorized off-road vehicle tracks and abandoned travel ways.  Route measurements and route directions must correspond to those stored in the Infra Oracle table RTE_BASICS.</purpose>
+			<supplinf>Last edited 4/10/2009.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-123.025723</westbc>
+				<eastbc Sync="TRUE">-121.226134</eastbc>
+				<northbc Sync="TRUE">47.101122</northbc>
+				<southbc Sync="TRUE">45.490820</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">370362.315100</leftbc><rightbc Sync="TRUE">504299.662700</rightbc><bottombc Sync="TRUE">1273692.210900</bottombc><topbc Sync="TRUE">1449387.839900</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Road</themekey>
+			</theme>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>The Forest Service uses the most current and complete data available. GIS data and product accuracy may vary.  They may be developed from sources of differing accuracy; accurate only at certain scales; based on modeling or interpretation; incomplete while being created or revised; etc. Using GIS products for purposes other than those for which they were created, may yield inaccurate or misleading results. The Forest Service reserves the right to correct, update, modify or replace GIS products without notification.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>USDA Forest Service / I-Web</cntorg>
+				</cntorgp>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+		<crossref>
+			<citeinfo>
+				<title>I-Web intranet site</title>
+				<onlink>http://i-web.wo.fs.fed.us/index.shtml</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<title>Travel Routes Data Dictionary</title>
+				<onlink>http://fsweb.r6.fs.fed.us/eng/travel_routes/user_board</onlink>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Personal GeoDatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<posacc>
+			<horizpa>
+				<horizpar>Accuracy testing must use NSSDA testing guidelines or be reported based on compiled, published test reports appropriate for the data collection method and equipment. The method of determining accuracy should be documented in the process step of the dataset metadata record.  If published accuracy results are used, use the statement 'Compiled to meet ___ (meters, feet) horizontal accuracy at 95% confidence interval' in the metadata record, and identify the testing source used. If accuracy is locally tested to NSSDA standards, the statement 'Tested to meet ___ (meters, feet) horizontal accuracy at 95% confidence interval' should be added to the metadata record. 
+Accuracy for legacy data may be reported according to the accuracy standard in place at the time of data collection (typically National Map Accuracy Standards).  Document the standard used in the metadata record.
+(For more information, see: http://www.fgdc.gov/standards/documents/standards/accuracy/chapter3.pdf)</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>Best available source with a target scale of 1:24000 for Continental U.S., Puerto Rico, and Hawaii and 1:63360 for Alaska.</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>Road feature loaded and metadata imported from ..r06_gip Reference; metadata updated.</procdesc>
+				<proccont><cntinfo><cntperp><cntper>Irene Ward</cntper></cntperp></cntinfo></proccont><procdate>20100430</procdate></procstep>
+			<procstep>
+				<procdesc>Imported from T:\FS\NFS\GiffordPinchot\Program\ResourceInfoMgmt\GIS\DataMaintTransportation\Data\Transporation_MasterEditCopy.mdb</procdesc>
+				<procdate>20091211</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Irene Ward</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">T:\FS\NFS\R06\Program\ResourceInfoMgmt\GIS\CSA1\Workspace\iward\TransportationDataPackage\Metadata\gip\Road.xml</srcused><procdate Sync="TRUE">20100430</procdate><proctime Sync="TRUE">14112100</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Road">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">3898</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Road"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">3898</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">43.000000</stdparll><stdparll Sync="TRUE">48.000000</stdparll><longcm Sync="TRUE">-120.000000</longcm><latprjo Sync="TRUE">34.000000</latprjo><feast Sync="TRUE">600000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_Oregon_Washington_Albers</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Road">
+			<enttyp>
+				<enttypl Sync="TRUE">Road</enttypl>
+				<enttypd>A route system depicting all roads within or in close proximity to an administrative unit.</enttypd>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">3898</enttypc></enttyp>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GlobalID</attrlabl>
+				<attrdef>Globally Unique Identifier for each feature, managed by ESRI software.</attrdef>
+				<attalias Sync="TRUE">GlobalID</attalias><attrtype Sync="TRUE">GlobalID</attrtype><attwidth Sync="TRUE">38</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>REV_DATE</attrlabl>
+				<attrdef>Date of feature creation or latest update.</attrdef>
+				<attrdefs>FS Feature Level Metadata standard column.  http://www.fs.fed.us/gac/metadata/feature_level.html</attrdefs>
+				<attrdomv>
+					<udom>The revision date field is populated with the compilation date for the feature. Tasks associated with each revision should be documented in the process steps of theme-based metadata.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">REV_DATE</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DATA_SOURCE</attrlabl>
+				<attrdef>Feature data source code</attrdef>
+				<attrdefs>FS Feature Level Metadata standard column http://www.fs.fed.us/gac/metadata/feature_level.html</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Original CFF</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>GPS – Uncorrected Data</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>GPS – Differentially Corrected Data</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>GPS Survey Grade and Sub-meter</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Resurvey Plat</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Photogrammetric Compilation</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Digitized From Hardcopy PBS/SEQ</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Digitized From Hardcopy Orthophoto quad</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Automated Lands Project (ALP)</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Digitized Other</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Geographic Coordinate Database (GCDB)</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Other Cadastral Information</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Other Agency Digital</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Other</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Remote Sensing Data – Base Level</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Remote Sensing Data – Mid Level</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Remote Sensing Data – Broad Level</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Remote Sensing Data – National Level</edomvd>
+						<edomvds></edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">DATA_SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>RTE_NO</attrlabl>
+				<attrdef>The local route number for a route.  This item identifies routes within a Forest Service unit.</attrdef>
+				<attrdomv>
+					<udom>The local route number for a route.  This item identifies routes within a Forest Service unit.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">RTE_NO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>RTE_CN</attrlabl>
+				<attrdef>Control number generated in Oracle to uniquely identify each route across all Forest Service units.  The value is brought from Oracle and used as a unique identifier for each spatial feature.  It is used to join each route to the corresponding rows in the views GC_RTE_BASICS_V, GC_ROADS_V, and GC_TRAILS_V by matching with the column RTE_CN.</attrdef>
+				<attalias Sync="TRUE">CN#</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BMP</attrlabl>
+				<attrdef>Beginning measure point of the route. The value is copied from Oracle (RTE_BASICS) and used as an aid in calibration.</attrdef>
+				<attalias Sync="TRUE">BMP</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EMP</attrlabl>
+				<attrdef>Ending measure point of the route. The value is copied from Oracle (RTE_BASICS) and used as an aid in calibration.</attrdef>
+				<attalias Sync="TRUE">EMP</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>RT_ACTION</attrlabl>
+				<attrdef>Identifies the status of the calibration of the route.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>CALIBRATED</edomv>
+						<edomvd>The route is properly calibrated to the bmp/emp values in RTE_BASICS.</edomvd>
+					</edom>
+					<edom>
+						<edomv>REMEASURE</edomv>
+						<edomvd>The route needs to be re-calibrated to the bmp/emp values in RTE_BASICS.</edomvd>
+					</edom>
+					<edom>
+						<edomv>MCALIBRATE</edomv>
+						<edomvd>The route is properly calibrated to the BMP/EMP values in RTE_BASICS and has had mid-point calibration performed with internal calibration points at road.</edomvd>
+					</edom>
+					<edom>
+						<edomv>MANUAL</edomv>
+						<edomvd>User will calibrate the route manually.</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">RT_ACTION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ACCURACY</attrlabl>
+				<attrdef>Distance (+/-), in dataset distance units, of expected difference between feature and real world object locations.</attrdef>
+				<attrdefs>FS Feature Level Metadata standard column.  http://www.fs.fed.us/gac/metadata/feature_level.htm</attrdefs>
+				<attalias Sync="TRUE">ACCURACY</attalias><attrtype Sync="TRUE">Single</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Name</attrlabl>
+				<attrdef>Name of the road.  This information is maintained in the Infra Roads application.</attrdef>
+				<attalias Sync="TRUE">Name</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ACTIONSTAMP</attrlabl>
+				<attrdef>The date that the value was placed into the ACTION item.</attrdef>
+				<attalias Sync="TRUE">ACTIONSTAMP</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+		</detailed>
+		<overview>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100430</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20140801</CreaDate><CreaTime>13045300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100430</SyncDate><SyncTime>14112200</SyncTime><ModDate>20100430</ModDate><ModTime>14153200</ModTime><ArcGISFormat>1.0</ArcGISFormat><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20140801" Time="130453">Project Roads C:\GST103\Lab_2\Data\NF_roads.shp PROJCS['NAD_1983_UTM_Zone_10N',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-123.0],PARAMETER['Scale_Factor',0.9996],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] # PROJCS['NAD_1983_Oregon_Washington_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',600000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',43.0],PARAMETER['Standard_Parallel_2',48.0],PARAMETER['Latitude_Of_Origin',34.0],UNIT['Meter',1.0]]</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Road</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">370362.3151</westBL><eastBL Sync="TRUE">504299.6627</eastBL><northBL Sync="TRUE">1449387.8399</northBL><southBL Sync="TRUE">1273692.2109</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-123.025723</westBL><eastBL Sync="TRUE">-121.226134</eastBL><northBL Sync="TRUE">47.101122</northBL><southBL Sync="TRUE">45.49082</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ds.fs.fed.us\EFS\\FS\NFS\R06\Program\ResourceInfoMgmt\GIS\CSA1\Workspace\iward\TransportationDataPackage\Transportation_Pack_gip.mdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">Personal GeoDatabase Feature Class</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_Oregon_Washington_Albers</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Road"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">3898</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100430</mdDateSt></metadata>
