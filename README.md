@@ -4,7 +4,7 @@
 
 This is the code repository for [Mastering Geospatial Development with QGIS 3.x - Third Edition](https://www.packtpub.com/application-development/mastering-geospatial-development-qgis-3x-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788999892 ), published by Packt.
 
-**An in-depth guide to becoming proficient in spatial data analysis using QGIS 3.4 and 3.6 with Python	**
+**An in-depth guide to becoming proficient in spatial data analysis using QGIS 3.4 and 3.6 with Python**
 
 ## What is this book about?
 QGIS is an open source solution to GIS and widely used by GIS professionals all over the world. It is the leading alternative to proprietary GIS software. Although QGIS is described as intuitive, it is also, by default, complex. Knowing which tools to use and how to apply them is essential to producing valuable deliverables on time.
