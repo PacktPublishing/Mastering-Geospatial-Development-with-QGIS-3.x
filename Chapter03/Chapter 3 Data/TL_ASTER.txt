@@ -1,0 +1,12 @@
+ Image width = 5747 height = 5171 bands = 3
+Geo Projection
+ Top Left 48.756263 -94.177080
+ Lat Increment 0.0001350000 Long Increment 0.0002033650
+Full Image:-
+ UL = 48.756263 -94.177080 UR = 48.756263 -93.008545
+ LL = 48.058313 -94.177080 LR = 48.058313 -93.008545
+Actual Image:-
+ Image_UL = 48.741143 -93.898673 Image_UR = 48.620993 -93.074435
+ Image_LL = 48.193178 -94.112003 Image_LR = 48.074378 -93.295899
+ Image_UL_Loc =   1369    112 Image_UR_Loc =   5422   1002
+ Image_LL_Loc =    320   4171 Image_LR_Loc =   4333   5051

@@ -1,0 +1,601 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: 
+        National Center for Earth Resources Observation and Science, U.S. 
+        Geological Survey
+      Publication_Date: 200212
+      Title: North American Land Cover Characteristics – 1-Kilometer Resolution
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+  Description:
+    Abstract:
+      This map layer is an Arc/INFO grid map of land cover characteristics for 
+      North America, excluding Hawaii, and including the Caribbean and most of 
+      Mexico.  The nominal spatial resolution is 1 km and the map layer is 
+      based on 1-km AVHRR data.  The data were compiled by staff at the National 
+      Center for Earth Resources Observation and Science as part of the Global 
+      Land Cover Characterization Project.  The land cover classes were produced 
+      using 1-km AVHRR data from April 1992 to March 1993.  Documentation and 
+      the original data are available at <http://edcsns17.cr.usgs.gov/glcc/>.  
+      The data available through the National Atlas of the United States are in 
+      GeoTIFF format.  This is a revised version of the May 2002 map layer, with 
+      a corrected shoreline for Greenland.
+
+    Purpose:
+      These data are intended for geographic display and analysis at the 
+      continental level, and for large regional areas.  The data should be 
+      displayed and analyzed at scales appropriate for 1:2,000,000-scale data. 
+      No responsibility is assumed by the U.S. Geological Survey in the use of
+      these data.
+    Supplemental_Information:
+      The following table describes the display of land cover characteristics 
+      classes in the TIFF image:
+
+      >Value  Class                                  RGB values
+      >_________________________________________________________
+      >1      Urban and Built-Up Land                255   0   0
+      >2      Dryland Cropland and Pasture           160  82  40
+      >3      Irrigated Cropland and Pasture         134  82  40
+      >4      Mixed Dryland/Irrigated Cropland 
+      >       and Pasture                            159  54   0
+      >5      Cropland/Grassland Mosaic              184 134  11
+      >6      Cropland/Woodland Mosaic               154 205  50
+      >7      Grassland                              234 221 130
+      >8      Shrubland                              255 140   0
+      >9      Mixed Shrubland/Grassland              255 163  67
+      >10     Savanna                                255 215   0
+      >11     Deciduous Broadleaf Forest              60 179 113
+      >12     Deciduous Needleleaf Forest            105 138  65
+      >13     Evergreen Broadleaf Forest             122 252   0
+      >14     Evergreen Needleleaf Forest             34 121  34
+      >15     Mixed Forest                           125 217 152
+      >16     Water Bodies                           132 193 255
+      >17     Herbaceous Wetland                     136 155 209
+      >18     Wooded Wetland                         109 121 188
+      >19     Barren or Sparsely Vegetated           150 150 150
+      >20     Herbaceous Tundra                      203 130 199
+      >21     Wooded Tundra                          188 143 143
+      >22     Mixed Tundra                           213 121 180
+      >23     Bare Ground Tundra                     253 186 242
+      >24     Snow or Ice                            255 255 255
+      >255    Unlabelled land area                   129 159 170
+      >
+
+      For further information about the Land Cover Characterization Program of 
+      the U.S. Geological Survey, please see 
+      <http://landcover.usgs.gov/index.asp>.
+
+      The associated world file is included as part of the GeoTIFF.  The 
+      contents of the world file are:
+      >1001.0420
+      >0.000000
+      >0.000000
+      >-1001.0420
+      >-5760628.0000
+      >4488331.0000
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199204
+        Ending_Date: 199303
+    Currentness_Reference: Dates of satellite imagery.
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 172
+      East_Bounding_Coordinate: -66
+      North_Bounding_Coordinate: 72
+      South_Bounding_Coordinate: 18
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Imagery/Base Maps/Earth Cover
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Land cover
+      Theme_Keyword: Land cover characteristics
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: USA
+      Place_Keyword: Canada
+      Place_Keyword: Mexico
+      Place_Keyword: North America
+      Place_Keyword: Cuba
+      Place_Keyword: Caribbean
+    Place:
+      Place_Keyword_Thesaurus:
+        U.S. Department of Commerce, 1987, Codes for the Identification of the 
+        States, the District of Columbia and the Outlying Areas of The United
+        States, and Associated Areas (Federal Information Processing Standard 
+        5-2): Washington, DC, National Institute of Standards and 
+        Technology.
+      Place_Keyword: Alabama
+      Place_Keyword: Alaska
+      Place_Keyword: Arizona
+      Place_Keyword: Arkansas
+      Place_Keyword: California
+      Place_Keyword: Colorado
+      Place_Keyword: Connecticut
+      Place_Keyword: Delaware
+      Place_Keyword: District of Columbia
+      Place_Keyword: Florida
+      Place_Keyword: Georgia
+      Place_Keyword: Idaho
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Iowa
+      Place_Keyword: Kansas
+      Place_Keyword: Kentucky
+      Place_Keyword: Louisiana
+      Place_Keyword: Maine
+      Place_Keyword: Maryland
+      Place_Keyword: Massachusetts
+      Place_Keyword: Michigan
+      Place_Keyword: Minnesota
+      Place_Keyword: Mississippi
+      Place_Keyword: Missouri
+      Place_Keyword: Montana
+      Place_Keyword: Nebraska
+      Place_Keyword: Nevada
+      Place_Keyword: New Hampshire
+      Place_Keyword: New Jersey
+      Place_Keyword: New Mexico
+      Place_Keyword: New York
+      Place_Keyword: North Carolina
+      Place_Keyword: North Dakota
+      Place_Keyword: Ohio
+      Place_Keyword: Oklahoma
+      Place_Keyword: Oregon
+      Place_Keyword: Pennsylvania
+      Place_Keyword: Rhode Island
+      Place_Keyword: South Carolina
+      Place_Keyword: South Dakota
+      Place_Keyword: Tennessee
+      Place_Keyword: Texas
+      Place_Keyword: Utah
+      Place_Keyword: Vermont
+      Place_Keyword: Virginia
+      Place_Keyword: Washington
+      Place_Keyword: West Virginia
+      Place_Keyword: Wisconsin
+      Place_Keyword: Wyoming
+      Place_Keyword: Puerto Rico
+      Place_Keyword: Virgin Islands
+  Access_Constraints: None
+  Use_Constraints:
+    None.  Acknowledgment of the National Atlas of the United States of 
+    America would be appreciated in products derived from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jesslyn Brown
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: EROS Data Center
+        City: Sioux Falls
+        State_or_Province: SD
+        Postal_Code: 57198-0001
+      Contact_Voice_Telephone: 605-594-6003
+      Contact_Electronic_Mail_Address: jfbrown@usgs.gov
+  Data_Set_Credit:
+    The basic data from which this map was derived were provided by the USGS, 
+    National Center for Earth Resources Observation and Science, Global Land 
+    Cover Characteristics Project.
+  Native_Data_Set_Environment:
+    The original data were in 8-bit binary format. They were converted to 
+    GeoTIFF format for use in the National Atlas Map Maker.  
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Center for EROS, U.S. Geological Survey
+      Publication_Date: 200509
+      Title: Conterminous United States Land Cover 1992 – 200-Meter Resolution
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Other_Citation_Details: 
+        This map layer is a 200-meter resolution image of 1992 land cover for 
+        the conterminous United States, with classification based on a modified 
+        Anderson Land Cover Classification scheme.  See 
+        <http://landcover.usgs.gov/classes.asp> for more information on the 
+        classification used.
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+    
+Data_Quality_Information:
+  Logical_Consistency_Report: 
+    No tests for logical consistency have been performed on this map layer.
+  Completeness_Report:
+    This map layer contains data for all of North America, except for Hawaii, 
+    the eastern part of Greenland, southern Mexico, and Central America.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 1998
+          Title: 
+            Global Land Cover Characteristics map of seasonal land cover 
+            regions for North America, version 1.2L
+          Publication_Information:
+            Publication_Place: Sioux Falls, SD
+            Publisher: 
+              National Center for Earth Resources Observation and Science
+          Other_Citation_Details:
+            The procedures used in development of this map are described in 
+            Loveland, T.R., Reed, B.C., Brown, J.F., Ohlen, D.O., Zhu, J., 
+            Yang, L., and Merchant, J.W., 2000.  Development of a Global Land 
+            Cover Characteristics Database and IGBP DISCover from 1-km AVHRR 
+            Data.  International Journal of Remote Sensing, v. 21, no. 6/7, 
+            p. 1,303-1,330.
+          Online_Linkage: 
+            <http://edcsns17.cr.usgs.gov/glcc/glcc_version1.html#NorthAmerica>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1992
+            Ending_Date: 1993
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: Land Cover map
+      Source_Contribution:
+        Land cover information for Canada, lower 48 United States, and Mexico.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Atlas of the United States
+          Publication_Date: 1999
+          Title: 
+            Shoreline file in Lambert Azimuthal Equal Area projection.
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: National Atlas of the United States
+      Type_of_Source_Media: Internal file
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1972
+            Ending_Date: 1999
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: shorelp020l
+      Source_Contribution: Shoreline mask for area of coverage.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: 
+            National Center for Earth Resources Observation and Science, U.S. 
+            Geological Survey
+          Publication_Date: 199906
+          Title: North American Land Cover Characteristics
+          Publication_Information:
+            Publication_Place: Reston, VA	
+            Publisher: National Atlas of the United States
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times: 
+            Beginning_Date: 199204 
+            Ending_Date: 199303 
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: LANDCOVER_IMAGE 
+      Source_Contribution: Land Cover Characteristics TIFF image.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: 
+            National Center for Earth Resources Observation and Science, U.S. 
+            Geological Survey
+          Publication_Date: 200205
+          Title: North American Land Cover Characteristics
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: National Atlas of the United States
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times: 
+            Beginning_Date: 199204 
+            Ending_Date: 199303 
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: LANDCOVER_IMAGE_200205
+      Source_Contribution: Land Cover Characteristics TIFF image.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Imagery and Mapping Agency 
+          Publication_Date: 1990
+          Title: World Vector Shoreline
+          Publication_Information:
+            Publication_Place: Bethesda, MD
+            Publisher: National Imagery and Mapping Agency
+          Online_Linkage:
+            <http://www.ngdc.noaa.gov/mgg/shorelines/shorelines.html>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time: 
+            Calendar_Date: 1990 
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: WVS 
+      Source_Contribution: Shoreline information.
+
+    Process_Step:
+      Process_Description: 
+        The Land Cover image was downloaded from the EROS site 
+        <http://edcsns17.cr.usgs.gov/glcc/glcc_version1.html#NorthAmerica>.
+        A header file was created from the information provided in the North 
+        America Documentation file located at 
+        <http://edcsns17.cr.usgs.gov/glcc/nadoc1_2.html>
+        The header file consisted of the following parameters:
+        >nrows 8996
+        >ncols 9223
+        >nbands 1
+        >nbits 8
+        >layout BIL
+        >xdim 1000.0
+        >ydim 1000.0
+        >ulxmap -4487000.0
+        >ulymap 4480000.0  
+        The data were converted from image format to ESRI GRID format using 
+        the command IMAGEGRID.  The file was then reprojected to change the
+        latitude of projection center from 50 degress to 45 degrees.  A
+        shoreline mask was created using the file shorelp020l.  It was used to 
+        add land areas not included in the Land Cover map, including some 
+        Aleutian islands, Hawaii, eastern Russia, Iceland, and half of 
+        Greenland.  These land areas were given a code of 255.  The image was 
+        truncated to cover the same area as shorelp020l, and the resulting 
+        file was converted to TIFF format using the RGB colors listed in the
+        Supplemental_Information section.
+      Source_Used_Citation_Abbreviation: Land Cover map
+      Source_Used_Citation_Abbreviation: shorelp020l
+      Process_Date: 1999
+      Source_Produced_Citation_Abbreviation: LANDCOVER_IMAGE
+
+    Process_Step:
+      Process_Description:
+        A GeoTIFF Revision 1.0 header was added and PackBits compression was
+        applied to the image.
+      Source_Used_Citation_Abbreviation: LANDCOVER_IMAGE
+      Process_Date: 200205
+      Source_Produced_Citation_Abbreviation: LANDCOVER_IMAGE_200205
+
+    Process_Step:
+      Process_Description:
+        Image data for Greenland were adjusted and remasked to correct for 
+        geometric distortion in the northwest part of the island between the 
+        Robeson Channel and Cape Morris Jesup, and to improve registration with 
+        a new, corrected coastline derived from World Vector Shoreline (WVS). 
+
+        A link coverage was created in ArcEdit containing links between the 
+        original Greenland data and the new coastline.  The link coverage was 
+        used in the Arc Adjust command to perform a linear transformation with 
+        nearest neighbor resampling on the original image, stored as an Arc/INFO 
+        grid dataset.  The resulting image is geometrically correct and fits the 
+        WVS coastline.  This correction was applied to data for Greenland only; 
+        the rest of the image was left unchanged.
+      Source_Used_Citation_Abbreviation: LANDCOVER_IMAGE_200205
+      Source_Used_Citation_Abbreviation: WVS
+      Process_Date: 200212
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Grid Cell
+    Row_Count: 7265
+    Column_Count: 10030
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Azimuthal Equal Area
+        Lambert_Azimuthal_Equal_Area:
+          Longitude_of_Projection_Center: -100.00
+          Latitude_of_Projection_Center: 45.00
+          False_Easting: 0.0
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 1001.042
+          Ordinate_Resolution: 1001.042
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: None
+      Ellipsoid_Name: Sphere
+      Semi-major_Axis: 6370997.0
+      Denominator_of_Flattening_Ratio: 1.0
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Land cover characteristics grid cell
+      Entity_Type_Definition:
+        Any of the data elements in the land cover characteristics file.
+      Entity_Type_Definition_Source: National Atlas of the United States
+    Attribute:
+      Attribute_Label: Land cover characteristics grid cell value
+      Attribute_Definition:
+        The value is an indication of the land cover class as described in 
+        detail in 'A Land Use and Land Cover Classification System for Use 
+        with Remote Sensor Data', Anderson, J.R., Hardy, E.E., Roach, J.T., 
+        and Witmer, R.E., U.S. Geological Survey Professional Paper 964,
+        1976.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Urban and Built-Up Land
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Dryland Cropland and Pasture
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey 
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Irrigated Cropland and Pasture
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition:
+            Mixed Dryland/Irrigated Cropland and Pasture
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Cropland/Grassland Mosaic
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Cropland/Woodland Mosaic
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Grassland
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Shrubland
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Mixed Shrubland/Grassland
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Savanna
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Deciduous Broadleaf Forest
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 12
+          Enumerated_Domain_Value_Definition: Deciduous Needleleaf Forest
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 13
+          Enumerated_Domain_Value_Definition: Evergreen Broadleaf Forest
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 14
+          Enumerated_Domain_Value_Definition: Evergreen Needleleaf Forest
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 15
+          Enumerated_Domain_Value_Definition: Mixed Forest
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 16
+          Enumerated_Domain_Value_Definition: Water Bodies
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 17
+          Enumerated_Domain_Value_Definition: Herbaceous Wetland
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 18
+          Enumerated_Domain_Value_Definition: Wooded Wetland
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 19
+          Enumerated_Domain_Value_Definition: Barren or Sparsely Vegetated
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 20
+          Enumerated_Domain_Value_Definition: Herbaceous Tundra
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 21
+          Enumerated_Domain_Value_Definition: Wooded Tundra
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 22
+          Enumerated_Domain_Value_Definition: Mixed Tundra
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 23
+          Enumerated_Domain_Value_Definition: Bare Ground Tundra
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 24
+          Enumerated_Domain_Value_Definition: Snow or Ice
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 255
+          Enumerated_Domain_Value_Definition: Unlabelled land area
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          Earth Science Information Center, U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 507 National Center
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+      Contact_Voice_Telephone: 703-648-5920
+      Contact_Instructions:
+        In addition to the address above there are other ESIC offices 
+        throughout the country.  A full list of these offices is at
+        <http://geography.usgs.gov/esic/esic_index.html>.                
+  Distribution_Liability:
+    Although these data have been processed successfully on a computer system 
+    at the U.S. Geological Survey, no warranty expressed or implied is made by 
+    the U.S. Geological Survey regarding the utility of the data on any other 
+    system, nor shall the act of distribution constitute any such warranty.
+    No responsibility is assumed by the U.S. Geological Survey in the use of 
+    these data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: TIFF
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name:
+                <http://nationalatlas.gov/atlasftp.html>
+
+    Fees:
+      There is no charge for the map layer.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20050808
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peg Rawson
+        Contact_Organization: National Atlas of the United States
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 12201 Sunrise Valley Drive
+        Address: MS-561 
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 703-648-4183
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+

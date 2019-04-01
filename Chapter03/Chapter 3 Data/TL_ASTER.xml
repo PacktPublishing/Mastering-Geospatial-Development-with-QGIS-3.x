@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../collection.xsl"?>
+<!-- <!DOCTYPE metadata PUBLIC "-//W3C//ENTITIES Full Latin 1//EN//HTML" "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"> -->
+<metadata>
+	<idinfo>
+		<descript>
+			<langdata>en</langdata>
+			<abstract>Each image in a TerraLook collection is rendered in simulated natural color and distributed in JPEG format.  The JPEG file format and simulated natural color scheme were selected to make TerraLook images accessible to a wide audience. TerraLook JPEG files are small in size, which makes them quick to download and display using Web browsers and other commonly available software packages. Simulated natural colors are generally easy to interpret and understand. The simulated natural colors in TerraLook images are consistently processed so that images from four time periods -- circa 1975, 1990, 2000, and the present -- can be compared through time. The simulated natural color images use the green, red and NIR source image bands as follows: Red = R; Green = 2/3 * G + 1/3 * NIR; Blue = 2/3 * G - 1/3 * NIR.
+			</abstract>
+			<purpose>Landsat and other satellite sensors have been collecting images of the Earth from space for more than 30 years. For the most part, the use of satellite images has been limited to the scientific and land management communities. TerraLook is intended to broaden the satellite data user community by providing both ASTER and the Tri-Decadal Global Landsat Orthorectified data (from three different epochs) as simulated natural color JPEG images. TerraLook aims to serve the education and natural resource management communities by meeting the need for easily accessible GIS-ready remotely-sensed data. TerraLook collections will be of value to anyone who wants to see the changes to the Earth's surface over the last 30 years. TerraLook images are designed for visual interpretation and display.
+			</purpose>
+			<supplinf>The image is stored in the TerraLook Collection "images" directory.
+			
+This TerraLook image is derived from an ASTER image (http://eros.usgs.gov/products/satellite/aster.html) from the Land Processes Distribued Active Archive Center at USGS EROS. The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) is one of a number of instruments on board the Terra platform, which was launched in December 1999. ASTER provides fourteen spectral bands with 15- to 90-meter resolution depending on bands. ASTER does not acquire data continuously, and its sensors are activated only to collect specific scenes upon request. The instrument consists of three separate telescopes, each of which provides different spectral range and resolution. The VNIR (visible and near-infrared) sensor provides 4 bands at 15-meter resolution. The SWIR (short-wave infrared) sensor provides 6 bands at 30-meter resolution. The TIR (thermal infrared) sensor provides 5 bands at 90-meter resolution. The swath width for all sensors is 60 kilometers. TerraLook images use the green, red and NIR bands from the VNIR sensor.
+			</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<!-- date collection is generated -->
+				<pubdate>20141223</pubdate>
+				<!--can we create composite image name such as TL_ASTER_yyyy_mm_dd_latcen_longcen.jpg 2 decimal places on coordinates-->
+				<title>TL_ASTER_date2007-05-10_lat48.41_lon-93.60.jpg</title>
+				<geoform>remote-sensing image</geoform>
+				<origin>USGS Earth Resources Observation &amp; Science  (EROS)</origin>
+			</citeinfo>
+		</citation>
+		<datacred>TerraLook builds on the NASA Jet Propulsion Laboratory's Protected Area Archive project (http://asterweb.jpl.nasa.gov/TerraLook.asp).</datacred>
+		<timeperd>
+			<current>ground condition</current>
+			<timeinfo>
+				<sngdate>
+				<!-- date and time of acquisition -->
+				<caldate>20070510</caldate>
+				<time>172133</time>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+				<!-- bounding box of image -->
+				<bounding>
+					<westbc></westbc>
+					<eastbc></eastbc>
+					<northbc></northbc>
+					<southbc></southbc>
+			</bounding>
+			<dsgpoly>
+				<!-- polygon of actual image area -->
+					<dsgpolyo>
+					<grngpoin>
+						<gringlat>48.620993</gringlat>
+						<gringlon>-93.074435</gringlon>
+					</grngpoin>
+					<grngpoin>
+						<gringlat>48.741143</gringlat>
+						<gringlon>-93.898673</gringlon>
+					</grngpoin>
+					<grngpoin>
+						<gringlat>48.193178</gringlat>
+						<gringlon>-94.112003</gringlon>
+					</grngpoin>
+					<grngpoin>
+						<gringlat>48.074378</gringlat>
+						<gringlon>-93.295899</gringlon>
+					</grngpoin>
+				</dsgpolyo>
+			</dsgpoly>
+		</spdom>	
+	<keywords>
+			<theme>
+				<themekey>TerraLook</themekey>
+				<themekey>ASTER</themekey>
+				<themekt>None</themekt>
+			</theme>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>None. Acknowledgement of the USGS EROS and NASA JPL would be appreciated in products derived from this data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>					
+					<addrtype>mailing and physical address</addrtype>
+					<address>47914 252nd Street</address>
+					<city>Sioux Falls</city>
+					<state>South Dakota (SD)</state>
+					<postal>57198-0001</postal>
+					<country>United States of America (USA)</country>
+				</cntaddr>
+				<cntorgp>
+					<cntorg>USGS Earth Resources Observation &amp; Science  (EROS)</cntorg>
+					<cntper>TerraLook Customer Service Representative</cntper>
+				</cntorgp>
+				<cntvoice>605-594-6151 or 800-252-4547 (tollfree)</cntvoice>
+				<cntfax>605-594-6589</cntfax>
+				<cntemail>custserv@usgs.gov</cntemail>
+				<hours>0800-1600 CT, M-F (-6h CST/-5h CDT GMT)</hours>
+			</cntinfo>
+		</ptcontac>
+	    <browse>
+		   <browsen>TL_ASTER_date2007-05-10_lat48.41_lon-93.60.jpg</browsen>
+	     </browse>			
+	</idinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>band</enttypl>
+				<enttypd>The band label is its color in rgb space</enttypd>
+				<enttypds>None</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>red</attrlabl>
+				<attrdef>red band from source image</attrdef>
+				<attrdefs>None</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>255</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>green</attrlabl>
+				<attrdef>2/3 green band +1/3  NIR band from source image</attrdef>
+				<attrdefs>None</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>255</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>blue</attrlabl>
+				<attrdef>2/3 green band - 1/3  NIR band from source image</attrdef>
+				<attrdefs>None</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>255</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>The three bands form an RGB simulated-natural color image</eaover>
+			<eadetcit>cite simulated-natural color paper</eadetcit>
+		</overview>
+	</eainfo>	
+	<metainfo>
+		<langmeta>en</langmeta>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metac>None.</metac>
+		<metus>None. Acknowledgement of the USGS EROS and NASA JPL would be appreciated in products derived from this data.</metus>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>TerraLook Customer Services Representative</cntper>
+					<cntorg>U.S. Geological Survey Earth Resources Observation &amp; Science (EROS)</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Sioux Falls</city>
+					<state>South Dakota (SD)</state>
+					<postal>57198-0001</postal>
+					<address>47914 252nd Street</address>
+				</cntaddr>
+				<cntvoice>605-594-6151 or 800-252-4547 (tollfree)</cntvoice>
+				<cntfax>605-594-6589</cntfax><cntemail>custserv@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20061219</metd>
+	</metainfo>
+	<mdLang>
+		<languageCode value="en"/>
+	</mdLang>
+	<spref>
+		<horizsys>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<!-- pixel size of image -->
+				<latres></latres>
+				<longres></longres>
+			</geograph>
+      		<cordsysn>
+        		<geogcsn>GCS_WGS_1984</geogcsn>
+      		</cordsysn>			
+		</horizsys>
+	</spref>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<!-- number of rows and columns and pixel size of image -->
+			<rowcount></rowcount>
+			<colcount></colcount>
+			<rastxsz></rastxsz>
+			<rastysz></rastysz>
+			<rastbpp>8</rastbpp>
+			<vrtcount>1</vrtcount>
+			<rastorig>Upper Left</rastorig>
+			<rastcmap>FALSE</rastcmap>
+			<rastcomp>JPEG</rastcomp>
+			<rastband>3</rastband>
+			<rastdtyp>pixel codes</rastdtyp>
+			<rastplyr>FALSE</rastplyr>
+			<rastifor>JFIF (JPEG)</rastifor>
+			<rastxu>decimal degrees</rastxu>
+			<rastyu>decimal degrees</rastyu>
+			<rastnodt>0</rastnodt>
+		</rastinfo>
+	</spdoinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ASTER image</title>
+						<origin>LP_DAAC</origin>
+						<!--processing date and time-->
+						<pubdate>20141223</pubdate>
+						<pubtime>091227</pubtime>
+						<geoform>remote-sensing image</geoform>
+						<onlink>http://glovis.usgs.gov</onlink>
+						<onlink>http://edcdaac.usgs.gov</onlink>
+						<origin>USGS_EROS</origin>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20070510</caldate>
+							<time>172133</time>
+						</sngdate>
+					</timeinfo>						
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<typesrc>disc</typesrc>
+				<srccitea>LP DAAC</srccitea>
+				<srccontr>ASTER L1B image - AST_L1B_00305102007172133_20141223090358_6277.jpg</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Generate TerraLook simulated natural color product from ASTER image</procdesc>
+						<!--change to formal name and version number-->
+						<procsv>Image Collection Generator 1.0.0</procsv>
+						<!--creation date and time-->
+						<procdate>20141223</procdate>
+						<proctime>091227</proctime>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The ASTER User's Guide (2003) at http://www.science.aster.ersdac.or.jp/en/documnts/users_guide/ documents of the accuracy of the Level 1 products at better than 50 meters at nadir. 
+				JPEG compressed with quality of .80 will yield a rule-of-thumb horizontal degradation of 2, which will be highly variable depending on local image texture.</horizpar>
+				<qhorizpa>
+					<!--50 for ASTER, 50 for TM and ETM+, 100 from MSS-->
+					<horizpav>50</horizpav>
+					<horizpae>RMSE</horizpae>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<logic>Source data ASTER L1B</logic>
+		<complete>JPEG compressed with quality of 85</complete>
+	</dataqual>
+</metadata>

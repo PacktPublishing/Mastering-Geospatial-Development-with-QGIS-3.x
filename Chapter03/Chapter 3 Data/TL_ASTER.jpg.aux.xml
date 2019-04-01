@@ -1,0 +1,22 @@
+<PAMDataset>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="COMPRESSION">JPEG</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.497907949790795</HistMin>
+        <HistMax>238.4979079497908</HistMax>
+        <BucketCount>239</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>7827|9|3|2|25|12|20|8|17|12|7|12|16|17|17|15|33|21|34|49|42|64|92|82|79|113|90|112|95|103|123|104|134|103|94|122|100|136|107|111|119|107|112|109|134|110|106|128|105|121|120|117|123|105|129|114|113|127|109|102|112|108|121|120|137|98|86|118|110|110|110|105|122|87|93|100|83|104|78|99|92|70|77|102|87|71|98|64|90|86|68|79|66|77|67|68|74|53|54|62|51|66|52|72|55|62|70|47|44|55|51|51|52|65|45|43|57|31|58|37|40|41|40|39|35|31|41|36|44|41|35|35|29|38|31|28|30|25|26|28|25|22|31|21|26|25|22|19|19|24|23|25|17|15|18|20|14|16|16|20|16|14|15|12|17|13|10|7|23|17|12|8|15|6|6|7|4|13|10|9|8|7|9|10|5|5|5|5|6|7|6|6|3|6|4|6|6|1|4|3|6|3|6|4|6|1|2|2|5|3|3|3|2|1|2|5|3|2|4|0|3|3|2|6|2|2|3|5|0|6|0|0|0|0|0|0|0|0|0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
