@@ -10,15 +10,15 @@ This is the code repository for [Mastering Geospatial Development with QGIS 3.x 
 QGIS is an open source solution to GIS and widely used by GIS professionals all over the world. It is the leading alternative to proprietary GIS software. Although QGIS is described as intuitive, it is also, by default, complex. Knowing which tools to use and how to apply them is essential to producing valuable deliverables on time.
 
 This book covers the following exciting features:
-Create and manage a spatial database 
-Get to know advanced techniques to style GIS data 
-Prepare both vector and raster data for processing 
-Add heat maps, live layer effects, and labels to your maps 
-Master LAStools and GRASS integration with the Processing Toolbox 
-Edit and repair topological data errors 
-Automate workflows with batch processing and the QGIS Graphical Modeler 
-Integrate Python scripting into your data processing workflows 
-Develop your own QGIS plugins 
+* Create and manage a spatial database 
+* Get to know advanced techniques to style GIS data 
+* Prepare both vector and raster data for processing 
+* Add heat maps, live layer effects, and labels to your maps 
+* Master LAStools and GRASS integration with the Processing Toolbox 
+* Edit and repair topological data errors 
+* Automate workflows with batch processing and the QGIS Graphical Modeler 
+* Integrate Python scripting into your data processing workflows 
+* Develop your own QGIS plugins 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788999894) today!
 
@@ -38,18 +38,10 @@ If you are a GIS professional, a consultant, a student, or perhaps a fast learne
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-1).
 ### Software and Hardware List
-| Chapter | Software required | OS required |
+| Chapter | Software required | OS required | 
 | -------- | ------------------------------------ | ----------------------------------- |
 | All | QGIS 3.4 | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
+
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788999892_ColorImages.pdf).
 
@@ -58,36 +50,20 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Hands-On Geospatial Analysis with R and QGIS [[Packt]](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis?utm_source=github&utm_medium=repository&utm_campaign=9781788991674 ) [[Amazon]](https://www.amazon.com/dp/1788991672)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
+## Get to Know the Authors
 
-## Get to Know the Author
-**Shammunul Islam **
 Shammunul Islam is a consulting spatial data scientist at the Institute of Remote Sensing, Jahangirnagar University, and a senior consultant at ERI, Bangladesh. He develops applications for automating geospatial and statistical analysis in different domains such as in the fields of the environment, climate, and socio-economy. He also consults as a survey statistician and provides corporate training on data science to businesses. Shammunul holds an MA in Climate and Society from Columbia University, an MA in development studies, and a BSc in statistics.
 
-**Simon Miles **
+
 Simon Miles is a GIS/web developer working for the Royal Borough of Windsor and Maidenhead, and has been working in the GIS industry since 2003. Both in the office and at home, he works using open source technologies. His main kit or stack includes QGIS, PostGIS, Python, GDAL, Leaflet, JavaScript, and PHP. His main focus presently is on digital delivery/transformation, chiefly through the consolidation of data, applications, and legacy systems, and replacing these with APIs and web applications. In 2013, Simon helped to establish the UK QGIS user group, which holds regional meetings two or three times a year.
 
-****
-0
 
-****
-0
 
-****
-0
+## Other books by the author
+[Hands-On Geospatial Analysis with R and QGIS](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis?utm_source=github&utm_medium=repository&utm_campaign=9781788991674)
 
-## Other books by the authors
-[](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis?utm_source=github&utm_medium=repository&utm_campaign=)
 
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
