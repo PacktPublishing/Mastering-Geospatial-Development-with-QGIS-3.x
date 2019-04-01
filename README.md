@@ -68,8 +68,10 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 
-## Other books by the author
+## Other book by the author
 [Hands-On Geospatial Analysis with R and QGIS](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis?utm_source=github&utm_medium=repository&utm_campaign=9781788991674)
+
+
 
 
 
