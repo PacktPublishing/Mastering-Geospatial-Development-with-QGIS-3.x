@@ -1,0 +1,27 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="IMAGE__INPUT_NAME">C:\SBD\doqq_sid\bridgeport_nj_ne.tif, C:\SBD\doqq_sid\bridgeport_nj_nw.tif</MDI>
+    <MDI key="IMAGE__INPUT_FILE_SIZE">90998134.000000</MDI>
+    <MDI key="IMAGE__COMPRESSION_VERSION">1,6,1</MDI>
+    <MDI key="IMAGE__TARGET_COMPRESSION_RATIO">20.000000</MDI>
+    <MDI key="IMAGE__COMPRESSION_NLEV">9</MDI>
+    <MDI key="IMAGE__COMPRESSION_WEIGHT">4.000000</MDI>
+    <MDI key="IMAGE__COMPRESSION_GAMMA">2.000000</MDI>
+    <MDI key="IMAGE__COMPRESSION_BLOCK_SIZE">512</MDI>
+    <MDI key="IMAGE__CREATION_DATE">Tue Nov 28 14:50:48 2000
+</MDI>
+    <MDI key="VERSION">MG2</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|1|1|0|2|0|0|2|3|4|2|3|1|5|6|5|6|4|5|4|2|7|2|4|5|4|7|4|4|8|7|6|6|3|1|4|5|2|2|2|9|6|5|3|4|5|3|6|13|7|9|6|8|9|3|9|5|7|8|9|6|4|6|13|4|6|1|2|3|2|3|2|4|2|3|0|1|0|1|1|1|0|0|2|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</HistCounts>
+      </HistItem>
+    </Histograms>
+  </PAMRasterBand>
+</PAMDataset>
