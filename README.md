@@ -48,7 +48,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products
 * Learn QGIS - Fourth Edition  [[Packt]](https://www.packtpub.com/application-development/learn-qgis-fourth-edition) [[Amazon]](https://www.amazon.com/dp/B07KYS8PQJ)
 
-* Hands-On Geospatial Analysis with R and QGIS [[Packt]](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis?utm_source=github&utm_medium=repository&utm_campaign=9781788991674 ) [[Amazon]](https://www.amazon.com/dp/1788991672)
+* Hands-On Geospatial Analysis with R and QGIS [[Packt]](https://www.packtpub.com/application-development/hands-geospatial-analysis-r-and-qgis) [[Amazon]](https://www.amazon.com/dp/1788991672)
 
 
 ## Get to Know the Authors
