@@ -1,0 +1,19 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="COLORSPACE">MULTIBAND</MDI>
+    <MDI key="COMPRESSION_RATE_TARGET">4</MDI>
+    <MDI key="VERSION">2</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>Band #0</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Band #1</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Band #2</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Band #3</Description>
+  </PAMRasterBand>
+</PAMDataset>
