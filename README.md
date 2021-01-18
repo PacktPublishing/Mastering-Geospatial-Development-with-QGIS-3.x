@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/mastering-geospatial-development-with-qgis-3-x-third-edition/9781788999892)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1788999894).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Mastering Geospatial Development with QGIS 3.x - Third Edition
 
 <a href="https://www.packtpub.com/application-development/mastering-geospatial-development-qgis-3x-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788999892 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/10197_cover.png" alt="Mastering Geospatial Development with QGIS 3.x - Third Edition" height="256px" align="right"></a>
