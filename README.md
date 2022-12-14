@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781788999892)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Mastering Geospatial Development with QGIS 3.x - Third Edition
 
 <a href="https://www.packtpub.com/application-development/mastering-geospatial-development-qgis-3x-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788999892 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/10197_cover.png" alt="Mastering Geospatial Development with QGIS 3.x - Third Edition" height="256px" align="right"></a>
